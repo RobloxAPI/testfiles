@@ -1,6 +1,6 @@
 # Formats
 
-## File formats
+## Input formats
 An input file has one of several formats, determined by the file extension.
 Listed are the specifications for the various Roblox data formats:
 
