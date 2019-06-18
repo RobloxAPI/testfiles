@@ -70,33 +70,33 @@ The model format displays the structure of an instance tree.
 
 [**Specification**](golden/model.md)
 
-Struct  | Directive | Formats
---------|-----------|--------
-`model` | `model`   | `rbxl`, `rbxm`, `rbxlx`, `rbxmx`
+- **Struct:** `model`
+- **Directive**: `model`
+- **Formats:** `rbxl`, `rbxm`, `rbxlx`, `rbxmx`
 
 ### Binary format
 The binary format displays the binary structure of an instance tree file.
 
 [**Specification**](golden/binary.md)
 
-Struct   | Directive | Formats
----------|-----------|--------
-`binary` | `format`  | `rbxl`, `rbxm`
+- **Struct:** `binary`
+- **Directive**: `format`
+- **Formats:** `rbxl`, `rbxm`
 
 ### XML format
 The XML format displays the XML structure of an instance tree file.
 
 [**Specification**](golden/xml.md)
 
-Struct | Directive | Formats
--------|-----------|--------
-`xml`  | `format`  | `rbxl` (legacy only), `rbxm` (legacy only), `rbxlx`, `rbxmx`
+- **Struct:** `xml`
+- **Directive**: `format`
+- **Formats:** `rbxl` (legacy only), `rbxm` (legacy only), `rbxlx`, `rbxmx`
 
 ### Error format
 The error format displays errors that are expected to occur.
 
 [**Specification**](golden/error.md)
 
-Struct  | Directive | Formats
---------|-----------|--------
-`error` | `error`   | Any
+- **Struct:** `error`
+- **Directive**: `error`
+- **Formats:** Any
