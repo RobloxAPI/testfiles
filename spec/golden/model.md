@@ -11,7 +11,7 @@ The model format displays a tree of instances and their properties.
 
 ## Remarks
 The format uses the standard struct with Format, Struct, and Data fields,
-described [here](#../README.md#user-content-common). The type of the Data field
+described [here](../README.md#user-content-common). The type of the Data field
 is a [Root][Root] struct.
 
 The format uses the primitive types described
