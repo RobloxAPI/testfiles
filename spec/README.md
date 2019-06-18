@@ -1,6 +1,4 @@
-# Formats
-
-## Input formats
+# Input formats
 An input file has one of several formats, determined by the file extension.
 Listed are the specifications for the various Roblox data formats:
 
@@ -12,8 +10,10 @@ Listed are the specifications for the various Roblox data formats:
 - [~`terrain`~](format/terrain.md): Terrain data.
 - [~`csgphs`~](format/csgphs.md): CSG physical data.
 
-## Golden formats
-The formats of golden files have several common primitives.
+# Golden formats
+
+## Common
+The formats of golden files share a common structure:
 
 Each line usually contains a **field**, which consists of a name paired with a
 **value**. A field name is usually constant.
@@ -65,7 +65,83 @@ Each golden file, unless specified otherwise, is a struct with three fields:
 - `Data`: The value representing the content of the input file through the
   determined structure.
 
-### Model format
+Golden files are encoded in UTF-8.
+
+### Primitive value types
+Formats may use several common primitives value types:
+
+#### bool
+A boolean value.
+
+	Value: true
+	Value: false
+
+#### int
+A signed integer in base 10.
+
+	Value: 10
+	Value: -10
+
+#### uint
+An unsigned integer in base 10.
+
+	Value: 10
+
+#### float
+A floating point number in the shortest representation (`%g`).
+
+	Value: -0.125
+	Value: 3.14159
+
+#### bytes
+A sequence of bytes displayed on multiple lines. The first line is a "Length"
+field whose value is the length of the sequence. Subsequent lines display the
+bytes in a hex-dump format.
+
+For example, the following string:
+
+	Strange game.
+	The only winning move
+	is not to play.
+
+is formatted as:
+
+	Value
+		Length: 51
+		| 53 74 72 61 6e 67 65 20  67 61 6d 65 2e 0a 54 68 |Strange game..Th|
+		| 65 20 6f 6e 6c 79 20 77  69 6e 6e 69 6e 67 20 6d |e only winning m|
+		| 6f 76 65 0a 69 73 20 6e  6f 74 20 74 6f 20 70 6c |ove.is not to pl|
+		| 61 79 2e                                         |ay.|
+
+- The display is wrapped to 16 bytes.
+- An extra space is inserted after the 8th byte.
+- Bytes outside the inclusive range of 32-126 are displayed as `.`.
+
+If the length of the sequence is less than 16, then the display is shortened to
+the length:
+
+	Value
+		Length: 12
+		| 53 74 72 61 6e 67 65 20  67 61 6d 65 |Strange game|
+
+#### string
+A string contained between `"` characters.
+
+	Value: "Strange game.\nThe only winning move\nis not to play."
+
+The following characters are escaped:
+
+Character | Escape
+----------|-------
+`"`       | `\"`
+`\`       | `\\`
+newline   | `\n`
+tab       | `\t`
+
+If a string contains non-printable characters, then it is instead formatted as
+bytes.
+
+## Model format
 The model format displays the structure of an instance tree.
 
 [**Specification**](golden/model.md)
@@ -74,7 +150,7 @@ The model format displays the structure of an instance tree.
 - **Directive**: `model`
 - **Formats:** `rbxl`, `rbxm`, `rbxlx`, `rbxmx`
 
-### Binary format
+## Binary format
 The binary format displays the binary structure of an instance tree file.
 
 [**Specification**](golden/binary.md)
@@ -83,7 +159,7 @@ The binary format displays the binary structure of an instance tree file.
 - **Directive**: `format`
 - **Formats:** `rbxl`, `rbxm`
 
-### XML format
+## XML format
 The XML format displays the XML structure of an instance tree file.
 
 [**Specification**](golden/xml.md)
@@ -92,7 +168,7 @@ The XML format displays the XML structure of an instance tree file.
 - **Directive**: `format`
 - **Formats:** `rbxl` (legacy only), `rbxm` (legacy only), `rbxlx`, `rbxmx`
 
-### Error format
+## Error format
 The error format displays errors that are expected to occur.
 
 [**Specification**](golden/error.md)
