@@ -1,0 +1,236 @@
+Format: rbxlx
+Struct: model
+Data
+	Metadata
+		0
+			Key: "MetaASort"
+			Value: "MetaValueSort"
+		1
+			Key: "MetaKeyMiddle"
+			Value: "MetaValueMiddle"
+		2
+			Key: "MetaKeyOverride"
+			Value: "MetaValueB"
+	Instances
+		0
+			ClassName: "TestValues"
+			IsService: false
+			Reference: 0
+			Properties
+				0
+					Name: "BoolFalse"
+					Type: "Bool"
+					Value: false
+				1
+					Name: "BoolTrue"
+					Type: "Bool"
+					Value: true
+				2
+					Name: "DoubleE"
+					Type: "Double"
+					Value: 2.7182818284590451
+				3
+					Name: "DoubleFive"
+					Type: "Double"
+					Value: -0.55555555555555558
+				4
+					Name: "DoubleGravity"
+					Type: "Double"
+					Value: 196.19999999999999
+				5
+					Name: "DoubleLn10"
+					Type: "Double"
+					Value: 2.3025850929940459
+				6
+					Name: "DoubleLn2"
+					Type: "Double"
+					Value: 0.69314718055994529
+				7
+					Name: "DoublePhi"
+					Type: "Double"
+					Value: 1.6180339887498949
+				8
+					Name: "DoublePi"
+					Type: "Double"
+					Value: 3.1415926535897931
+				9
+					Name: "DoubleRound"
+					Type: "Double"
+					Value: 99003.78125
+				10
+					Name: "DoubleSqrt2"
+					Type: "Double"
+					Value: 1.4142135623730951
+				11
+					Name: "DoubleSqrtE"
+					Type: "Double"
+					Value: 1.6487212707001282
+				12
+					Name: "DoubleSqrtPhi"
+					Type: "Double"
+					Value: 1.272019649514069
+				13
+					Name: "DoubleSqrtPi"
+					Type: "Double"
+					Value: 1.7724538509055161
+				14
+					Name: "FloatE"
+					Type: "Float"
+					Value: 2.71828175
+				15
+					Name: "FloatFive"
+					Type: "Float"
+					Value: -0.555555582
+				16
+					Name: "FloatGravity"
+					Type: "Float"
+					Value: 196.199997
+				17
+					Name: "FloatLn10"
+					Type: "Float"
+					Value: 2.30258512
+				18
+					Name: "FloatLn2"
+					Type: "Float"
+					Value: 0.693147182
+				19
+					Name: "FloatPhi"
+					Type: "Float"
+					Value: 1.61803401
+				20
+					Name: "FloatPi"
+					Type: "Float"
+					Value: 3.14159274
+				21
+					Name: "FloatRound"
+					Type: "Float"
+					Value: 99003.7812
+				22
+					Name: "FloatSqrt2"
+					Type: "Float"
+					Value: 1.41421354
+				23
+					Name: "FloatSqrtE"
+					Type: "Float"
+					Value: 1.64872122
+				24
+					Name: "FloatSqrtPhi"
+					Type: "Float"
+					Value: 1.27201962
+				25
+					Name: "FloatSqrtPi"
+					Type: "Float"
+					Value: 1.7724539
+				26
+					Name: "Int64Max"
+					Type: "Int64"
+					Value: 9223372036854775807
+				27
+					Name: "Int64MaxIn"
+					Type: "Int64"
+					Value: 9223372036854775806
+				28
+					Name: "Int64MaxOverflow"
+					Type: "Int64"
+					Value: 9223372036854775807
+				29
+					Name: "Int64Min"
+					Type: "Int64"
+					Value: -9223372036854775808
+				30
+					Name: "Int64MinIn"
+					Type: "Int64"
+					Value: -9223372036854775807
+				31
+					Name: "Int64MinUnderflow"
+					Type: "Int64"
+					Value: -9223372036854775808
+				32
+					Name: "Int64MinusOne"
+					Type: "Int64"
+					Value: -1
+				33
+					Name: "Int64MinusTwo"
+					Type: "Int64"
+					Value: -2
+				34
+					Name: "Int64One"
+					Type: "Int64"
+					Value: 1
+				35
+					Name: "Int64Zero"
+					Type: "Int64"
+					Value: 0
+				36
+					Name: "IntMax"
+					Type: "Int"
+					Value: 2147483647
+				37
+					Name: "IntMaxIn"
+					Type: "Int"
+					Value: 2147483646
+				38
+					Name: "IntMaxOverflow"
+					Type: "Int"
+					Value: 2147483647
+				39
+					Name: "IntMin"
+					Type: "Int"
+					Value: -2147483648
+				40
+					Name: "IntMinIn"
+					Type: "Int"
+					Value: -2147483647
+				41
+					Name: "IntMinUnderflow"
+					Type: "Int"
+					Value: -2147483648
+				42
+					Name: "IntMinusOne"
+					Type: "Int"
+					Value: -1
+				43
+					Name: "IntMinusTwo"
+					Type: "Int"
+					Value: -2
+				44
+					Name: "IntOne"
+					Type: "Int"
+					Value: 1
+				45
+					Name: "IntZero"
+					Type: "Int"
+					Value: 0
+			Children
+		1
+			ClassName: "ReferentA"
+			IsService: false
+			Reference: 1
+			Properties
+			Children
+		2
+			ClassName: "RefererA"
+			IsService: false
+			Reference: 2
+			Properties
+				0
+					Name: "ReferenceA"
+					Type: "Reference"
+					Value: 1
+			Children
+		3
+			ClassName: "RefererB"
+			IsService: false
+			Reference: 3
+			Properties
+				0
+					Name: "ReferenceB"
+					Type: "Reference"
+					Value: 4
+			Children
+		4
+			ClassName: "ReferentB"
+			IsService: false
+			Reference: 4
+			Properties
+			Children

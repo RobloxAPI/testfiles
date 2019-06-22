@@ -1,0 +1,70 @@
+<roblox version="4">
+	<Meta name="MetaKeyOverride">MetaValueA</Meta>
+	<Meta name="MetaKeyOverride">MetaValueB</Meta>
+	<Item class="TestValues">
+		<Properties>
+			<bool name="BoolTrue">true</bool>
+			<bool name="BoolFalse">false</bool>
+			<float name="FloatGravity">196.2</float>
+			<float name="FloatRound">99003.78125</float>
+			<float name="FloatFive">-0.55555555555555555</float>
+			<float name="FloatPi">3.14159274</float>
+			<float name="FloatE">2.71828182845904523536028747135266249775724709369995957496696763</float>
+			<float name="FloatPi">3.14159265358979323846264338327950288419716939937510582097494459</float>
+			<float name="FloatPhi">1.61803398874989484820458683436563811772030917980576286213544862</float>
+			<float name="FloatSqrt2">1.41421356237309504880168872420969807856967187537694807317667974</float>
+			<float name="FloatSqrtE">1.64872127070012814684865078781416357165377610071014801157507931</float>
+			<float name="FloatSqrtPi">1.77245385090551602729816748334114518279754945612238712821380779</float>
+			<float name="FloatSqrtPhi">1.27201964951406896425242246173749149171560804184009624861664038</float>
+			<float name="FloatLn2">0.693147180559945309417232121458176568075500134360255254120680009</float>
+			<float name="FloatLn10">2.30258509299404568401799145468436420760110148862877297603332790</float>
+			<double name="DoubleGravity">196.2</double>
+			<double name="DoubleRound">99003.78125</double>
+			<double name="DoubleFive">-0.55555555555555555</double>
+			<double name="DoublePi">3.14159274</double>
+			<double name="DoubleE">2.71828182845904523536028747135266249775724709369995957496696763</double>
+			<double name="DoublePi">3.14159265358979323846264338327950288419716939937510582097494459</double>
+			<double name="DoublePhi">1.61803398874989484820458683436563811772030917980576286213544862</double>
+			<double name="DoubleSqrt2">1.41421356237309504880168872420969807856967187537694807317667974</double>
+			<double name="DoubleSqrtE">1.64872127070012814684865078781416357165377610071014801157507931</double>
+			<double name="DoubleSqrtPi">1.77245385090551602729816748334114518279754945612238712821380779</double>
+			<double name="DoubleSqrtPhi">1.27201964951406896425242246173749149171560804184009624861664038</double>
+			<double name="DoubleLn2">0.693147180559945309417232121458176568075500134360255254120680009</double>
+			<double name="DoubleLn10">2.30258509299404568401799145468436420760110148862877297603332790</double>
+			<int name="IntMinUnderflow">-2147483649</int>
+			<int name="IntMin">-2147483648</int>
+			<int name="IntMinIn">-2147483647</int>
+			<int name="IntMinusTwo">-2</int>
+			<int name="IntMinusOne">-1</int>
+			<int name="IntZero">0</int>
+			<int name="IntOne">1</int>
+			<int name="IntMaxIn">2147483646</int>
+			<int name="IntMax">2147483647</int>
+			<int name="IntMaxOverflow">2147483648</int>
+			<int64 name="Int64MinUnderflow">-9223372036854775809</int64>
+			<int64 name="Int64Min">-9223372036854775808</int64>
+			<int64 name="Int64MinIn">-9223372036854775807</int64>
+			<int64 name="Int64MinusTwo">-2</int64>
+			<int64 name="Int64MinusOne">-1</int64>
+			<int64 name="Int64Zero">0</int64>
+			<int64 name="Int64One">1</int64>
+			<int64 name="Int64MaxIn">9223372036854775806</int64>
+			<int64 name="Int64Max">9223372036854775807</int64>
+			<int64 name="Int64MaxOverflow">9223372036854775808</int64>
+		</Properties>
+	</Item>
+	<Item class="ReferentA" referent="aaa"></Item>
+	<Meta name="MetaKeyMiddle">MetaValueMiddle</Meta>
+	<Meta name="MetaASort">MetaValueSort</Meta>
+	<Item class="RefererA">
+		<Properties>
+			<Ref name="ReferenceA">aaa</Ref>
+		</Properties>
+	</Item>
+	<Item class="RefererB">
+		<Properties>
+			<Ref name="ReferenceB">bbb</Ref>
+		</Properties>
+	</Item>
+	<Item class="ReferentB" referent="bbb"></Item>
+</roblox>
