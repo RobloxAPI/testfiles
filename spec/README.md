@@ -96,10 +96,19 @@ An unsigned integer in base 10.
 	Value: 10
 
 #### float
-A floating point number in the shortest representation (`%g`).
+A floating point number in a decimal format, following rules similar to printf.
+Single precision uses `%.9g` as the formatter, and double precision uses
+`%.17g`.
 
-	Value: -0.125
-	Value: 3.14159
+	Single: 3.14159274
+	Single: 99003.7812
+	Single: -0.555555582
+	Double: 3.1415926535897931
+	Double: 99003.78125
+	Double: -0.55555555555555558
+
+Rounding currently uses half-to-even. If you have an implementation that uses
+half-away-to-zero or some other odd behavior, see issue #1.
 
 #### bytes
 A sequence of bytes displayed on multiple lines. The first line is a "Length"
