@@ -277,6 +277,8 @@ Elasticity       | [float][float]
 FrictionWeight   | [float][float]
 ElasticityWeight | [float][float]
 
+If `CustomPhysics` is false, then the other fields are omitted.
+
 [PhysicalProperties]: #user-content-physicalproperties
 
 ### Color3uint8
