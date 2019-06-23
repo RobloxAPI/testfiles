@@ -3,6 +3,27 @@
 	<Meta name="MetaKeyOverride">MetaValueB</Meta>
 	<Item class="TestValues">
 		<Properties>
+			<string name="StringSimple">Hello world!</string>
+			<string name="StringUnicode">Hello, 世界!</string>
+			<string name="StringEscaped">Hello&#10;&#9;world!&#10;</string>
+			<string name="StringBytes">Hello&#0;&#1;&#2;&#9;&#10;&#126;&#127;&#128;&#129;&#253;&#254;&#255;world!</string>
+			<BinaryString name="BinaryStringSimple">Hello world!</BinaryString>
+			<BinaryString name="BinaryStringUnicode">Hello, 世界!</BinaryString>
+			<BinaryString name="BinaryStringEscaped">Hello&#10;&#9;world!&#10;</BinaryString>
+			<BinaryString name="BinaryStringBytes">Hello&#0;&#1;&#2;&#9;&#10;&#126;&#127;&#128;&#129;&#253;&#254;&#255;world!</BinaryString>
+			<ProtectedString name="ProtectedStringSimple">Hello world!</ProtectedString>
+			<ProtectedString name="ProtectedStringUnicode">Hello, 世界!</ProtectedString>
+			<ProtectedString name="ProtectedStringEscaped">Hello&#10;&#9;world!&#10;</ProtectedString>
+			<ProtectedString name="ProtectedStringBytes">Hello&#0;&#1;&#2;&#9;&#10;&#126;&#127;&#128;&#129;&#253;&#254;&#255;world!</ProtectedString>
+			<Content name="ContentNull"><null></null></Content>
+			<Content name="ContentSimple"><url>Hello world!</url></Content>
+			<Content name="ContentUnicode"><url>Hello, 世界!</url></Content>
+			<Content name="ContentEscaped"><url>Hello&#10;&#9;world!&#10;</url></Content>
+			<Content name="ContentBytes"><url>Hello&#0;&#1;&#2;&#9;&#10;&#126;&#127;&#128;&#129;&#253;&#254;&#255;world!</url></Content>
+			<SharedString name="SharedStringSimple">hvsmnRkNLIX24EaM7KQqIA==</SharedString>
+			<SharedString name="SharedStringUnicode">MB4hSem/vmxZaqYx9pJGlw==</SharedString>
+			<SharedString name="SharedStringEscaped">0/eiDQu4pAxywAgOUW2cRA==</SharedString>
+			<SharedString name="SharedStringBytes">CnevubXmEHHrnmAN9Ghqow==</SharedString>
 			<bool name="BoolTrue">true</bool>
 			<bool name="BoolFalse">false</bool>
 			<float name="FloatGravity">196.2</float>
@@ -31,6 +52,7 @@
 			<double name="DoubleSqrtPhi">1.27201964951406896425242246173749149171560804184009624861664038</double>
 			<double name="DoubleLn2">0.693147180559945309417232121458176568075500134360255254120680009</double>
 			<double name="DoubleLn10">2.30258509299404568401799145468436420760110148862877297603332790</double>
+			<int name="IntMinUnderflowMore">-2147483650</int>
 			<int name="IntMinUnderflow">-2147483649</int>
 			<int name="IntMin">-2147483648</int>
 			<int name="IntMinIn">-2147483647</int>
@@ -41,6 +63,8 @@
 			<int name="IntMaxIn">2147483646</int>
 			<int name="IntMax">2147483647</int>
 			<int name="IntMaxOverflow">2147483648</int>
+			<int name="IntMaxOverflowMore">2147483649</int>
+			<int64 name="Int64MinUnderflowMore">-9223372036854775810</int64>
 			<int64 name="Int64MinUnderflow">-9223372036854775809</int64>
 			<int64 name="Int64Min">-9223372036854775808</int64>
 			<int64 name="Int64MinIn">-9223372036854775807</int64>
@@ -51,8 +75,118 @@
 			<int64 name="Int64MaxIn">9223372036854775806</int64>
 			<int64 name="Int64Max">9223372036854775807</int64>
 			<int64 name="Int64MaxOverflow">9223372036854775808</int64>
+			<int64 name="Int64MaxOverflowMore">9223372036854775809</int64>
+			<UDim name="UDim">
+				<S>99000.78125</S>
+				<O>1234567890</O>
+			</UDim>
+			<UDim2 name="UDim2">
+				<XS>99000.78125</S>
+				<XO>1234567890</O>
+				<YS>-99001.78125</S>
+				<YO>-1234567891</O>
+			</UDim>
+			<Ray name="Ray">
+				<origin>
+					<X>99000.78125</X>
+					<Y>-99001.78125</Y>
+					<Z>99002.78125</Z>
+				</origin>
+				<direction>
+					<X>-99003.78125</X>
+					<Y>99004.78125</Y>
+					<Z>-99005.78125</Z>
+				</direction>
+			</Ray>
+			<Faces name="Faces"><faces>21</faces></Faces>
+			<Axes name="Axes"><axes>6</axes></Axes>
+			<BrickColor name="BrickColor">1234567890</BrickColor>
+			<Color3 name="Color3">
+				<R>99000.78125</R>
+				<G>-99001.78125</G>
+				<B>99002.78125</B>
+			</Color3>
+			<Vector2 name="Vector2">
+				<X>99000.78125</X>
+				<Y>-99001.78125</Y>
+			</Vector2>
+			<Vector3 name="Vector3">
+				<X>99000.78125</X>
+				<Y>-99001.78125</Y>
+				<Z>99002.78125</Z>
+			</Vector3>
+			<CFrame name="CFrame">
+				<X>99000.78125</X>
+				<Y>-99001.78125</Y>
+				<Z>99002.78125</Z>
+				<R00>-99003.78125</R00>
+				<R01>99004.78125</R00>
+				<R02>-99005.78125</R00>
+				<R10>99006.78125</R00>
+				<R11>-99007.78125</R00>
+				<R12>99008.78125</R00>
+				<R20>-99009.78125</R00>
+				<R21>99010.78125</R00>
+				<R22>-99011.78125</R00>
+			</CFrame>
+			<token name="Token">1234567890</token>
+			<NumberSequence name="NumberSequence">
+				99000.78125 -99001.78125 99002.78125
+				-99003.78125 99004.78125 -99005.78125
+				99006.78125 -99007.78125 99008.78125
+				-99009.78125 99010.78125 -99011.78125
+			</NumberSequence>
+			<ColorSequence name="ColorSequence">
+				99000.78125 -99001.78125 99002.78125 -99003.78125 99004.78125
+				-99005.78125 99006.78125 -99007.78125 99008.78125 -99009.78125
+				99010.78125 -99011.78125 99012.78125 -99013.78125 99014.78125
+			</ColorSequence>
+			<NumberRange name="NumberRange">99000.78125 -99001.78125 </NumberRange>
+			<Rect2D name="Rect2D">
+				<min>
+					<X>99000.78125</X>
+					<Y>-99001.78125</Y>
+				</min>
+				<max>
+					<X>99002.78125</X>
+					<Y>-99003.78125</Y>
+				</max>
+			</Rect2D>
+			<PhysicalProperties name="PhysicalPropertiesFalseEmpty">
+				<CustomPhysics>false</CustomPhysics>
+			</PhysicalProperties>
+			<PhysicalProperties name="PhysicalPropertiesFalse">
+				<CustomPhysics>false</CustomPhysics>
+				<Density>99000.78125</Density>
+				<Friction>-99001.78125</Friction>
+				<Elasticity>99002.78125</Elasticity>
+				<FrictionWeight>-99003.78125</FrictionWeight>
+				<ElasticityWeight>99004.78125</ElasticityWeight>
+			</PhysicalProperties>
+			<PhysicalProperties name="PhysicalPropertiesTrueEmpty">
+				<CustomPhysics>true</CustomPhysics>
+			</PhysicalProperties>
+			<PhysicalProperties name="PhysicalPropertiesTrue">
+				<CustomPhysics>true</CustomPhysics>
+				<Density>99000.78125</Density>
+				<Friction>-99001.78125</Friction>
+				<Elasticity>99002.78125</Elasticity>
+				<FrictionWeight>-99003.78125</FrictionWeight>
+				<ElasticityWeight>99004.78125</ElasticityWeight>
+			</PhysicalProperties>
+			<Color3uint8 name="Color3uint8">
+				<R>1234567890</R>
+				<G>-1234567891</G>
+				<B>1234567892</B>
+			</Color3uint8>
 		</Properties>
 	</Item>
+	<SharedStrings>
+		<SharedString md5="hvsmnRkNLIX24EaM7KQqIA==">SGVsbG8gd29ybGQh</SharedString>
+		<SharedString md5="MB4hSem/vmxZaqYx9pJGlw==">SGVsbG8sIOS4lueVjCE=</SharedString>
+		<SharedString md5="0/eiDQu4pAxywAgOUW2cRA==">SGVsbG8KCXdvcmxkIQo=</SharedString>
+		<SharedString md5="CnevubXmEHHrnmAN9Ghqow==">SGVsbG8AAQIJCn5/gIH9/v93b3JsZCE=</SharedString>
+	</SharedStrings>
 	<Item class="ReferentA" referent="aaa"></Item>
 	<Meta name="MetaKeyMiddle">MetaValueMiddle</Meta>
 	<Meta name="MetaASort">MetaValueSort</Meta>
