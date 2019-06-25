@@ -49,7 +49,12 @@ type spaceFormat struct {
 	str string
 }
 
-var spaceTypeDefs = map[string][]spaceTypeDef{}
+var spaceTypeDefs = map[string][]spaceTypeDef{
+	"bool": {
+		{"True", "BoolValue", "Value", "true"},
+		{"False", "Frame", "Visible", "false"},
+	},
+}
 
 var spaceFormats = []spaceFormat{
 	{"Base", "%s"},

@@ -1,0 +1,472 @@
+<roblox version="4">
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueBase</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmpty</string>
+			<bool name="Value"></bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptySpace</string>
+			<bool name="Value">    </bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyTab</string>
+			<bool name="Value">	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyNewline</string>
+			<bool name="Value">
+</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyReturn</string>
+			<bool name="Value"></bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyVTab</string>
+			<bool name="Value"></bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyFormFeed</string>
+			<bool name="Value"></bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyMix</string>
+			<bool name="Value">
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmptyMixCRLF</string>
+			<bool name="Value">
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingSpace</string>
+			<bool name="Value">    true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingTab</string>
+			<bool name="Value">	true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingNewline</string>
+			<bool name="Value">
+true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingReturn</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingVTab</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingFormFeed</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingMix</string>
+			<bool name="Value">
+ 	true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLeadingMixCRLF</string>
+			<bool name="Value">
+ 	true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingSpace</string>
+			<bool name="Value">true    </bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingTab</string>
+			<bool name="Value">true	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingNewline</string>
+			<bool name="Value">true
+</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingReturn</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingVTab</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingFormFeed</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingMix</string>
+			<bool name="Value">true
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTrailingMixCRLF</string>
+			<bool name="Value">true
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingSpace</string>
+			<bool name="Value">    true    </bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingTab</string>
+			<bool name="Value">	true	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingNewline</string>
+			<bool name="Value">
+true
+</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingReturn</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingVTab</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingFormFeed</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingMix</string>
+			<bool name="Value">
+ 	true
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingMixCRLF</string>
+			<bool name="Value">
+ 	true
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingIndent</string>
+			<bool name="Value">
+				true
+			</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueWrappingIndentCRLF</string>
+			<bool name="Value">
+				true
+			</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseBase</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmpty</string>
+			<bool name="Visible"></bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptySpace</string>
+			<bool name="Visible">    </bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyTab</string>
+			<bool name="Visible">	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyNewline</string>
+			<bool name="Visible">
+</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyReturn</string>
+			<bool name="Visible"></bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyVTab</string>
+			<bool name="Visible"></bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyFormFeed</string>
+			<bool name="Visible"></bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyMix</string>
+			<bool name="Visible">
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmptyMixCRLF</string>
+			<bool name="Visible">
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingSpace</string>
+			<bool name="Visible">    false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingTab</string>
+			<bool name="Visible">	false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingNewline</string>
+			<bool name="Visible">
+false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingReturn</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingVTab</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingFormFeed</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingMix</string>
+			<bool name="Visible">
+ 	false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLeadingMixCRLF</string>
+			<bool name="Visible">
+ 	false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingSpace</string>
+			<bool name="Visible">false    </bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingTab</string>
+			<bool name="Visible">false	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingNewline</string>
+			<bool name="Visible">false
+</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingReturn</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingVTab</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingFormFeed</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingMix</string>
+			<bool name="Visible">false
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTrailingMixCRLF</string>
+			<bool name="Visible">false
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingSpace</string>
+			<bool name="Visible">    false    </bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingTab</string>
+			<bool name="Visible">	false	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingNewline</string>
+			<bool name="Visible">
+false
+</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingReturn</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingVTab</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingFormFeed</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingMix</string>
+			<bool name="Visible">
+ 	false
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingMixCRLF</string>
+			<bool name="Visible">
+ 	false
+ 	</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingIndent</string>
+			<bool name="Visible">
+				false
+			</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseWrappingIndentCRLF</string>
+			<bool name="Visible">
+				false
+			</bool>
+		</Properties>
+	</Item>
+</roblox>
