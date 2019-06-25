@@ -1,0 +1,111 @@
+<roblox version="4">
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLowerCase</string>
+			<bool name="Value">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueUpperCase</string>
+			<bool name="Value">TRUE</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueTitleCase</string>
+			<bool name="Value">True</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueMixedCase</string>
+			<bool name="Value">tRuE</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueOne</string>
+			<bool name="Value">1</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueLowerT</string>
+			<bool name="Value">t</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueUpperT</string>
+			<bool name="Value">T</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueInvalid</string>
+			<bool name="Value">invalid</bool>
+		</Properties>
+	</Item>
+	<Item class="BoolValue">
+		<Properties>
+			<string name="Name">TrueEmpty</string>
+			<bool name="Value"></bool>
+		</Properties>
+	</Item>
+
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLowerCase</string>
+			<bool name="Visible">false</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseUpperCase</string>
+			<bool name="Visible">FALSE</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseTitleCase</string>
+			<bool name="Visible">False</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseMixedCase</string>
+			<bool name="Visible">fAlSe</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseZero</string>
+			<bool name="Visible">0</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseLowerF</string>
+			<bool name="Visible">f</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseUpperF</string>
+			<bool name="Visible">F</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseInvalid</string>
+			<bool name="Visible">invalid</bool>
+		</Properties>
+	</Item>
+	<Item class="Frame">
+		<Properties>
+			<string name="Name">FalseEmpty</string>
+			<bool name="Visible"></bool>
+		</Properties>
+	</Item>
+</roblox>

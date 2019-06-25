@@ -1,0 +1,217 @@
+Format: rbxmx
+Struct: model
+Data
+	Metadata
+	Instances
+		0
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 0
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueLowerCase"
+				1
+					Name: "Value"
+					Type: "Bool"
+					Value: true
+			Children
+		1
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 1
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueUpperCase"
+				1
+					Name: "Value"
+					Type: "Bool"
+					Value: true
+			Children
+		2
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 2
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueTitleCase"
+				1
+					Name: "Value"
+					Type: "Bool"
+					Value: true
+			Children
+		3
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 3
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueMixedCase"
+				1
+					Name: "Value"
+					Type: "Bool"
+					Value: true
+			Children
+		4
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 4
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueOne"
+			Children
+		5
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 5
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueLowerT"
+			Children
+		6
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 6
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueUpperT"
+			Children
+		7
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 7
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueInvalid"
+			Children
+		8
+			ClassName: "BoolValue"
+			IsService: false
+			Reference: 8
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "TrueEmpty"
+			Children
+		9
+			ClassName: "Frame"
+			IsService: false
+			Reference: 9
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseLowerCase"
+				1
+					Name: "Visible"
+					Type: "Bool"
+					Value: false
+			Children
+		10
+			ClassName: "Frame"
+			IsService: false
+			Reference: 10
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseUpperCase"
+				1
+					Name: "Visible"
+					Type: "Bool"
+					Value: false
+			Children
+		11
+			ClassName: "Frame"
+			IsService: false
+			Reference: 11
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseTitleCase"
+				1
+					Name: "Visible"
+					Type: "Bool"
+					Value: false
+			Children
+		12
+			ClassName: "Frame"
+			IsService: false
+			Reference: 12
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseMixedCase"
+				1
+					Name: "Visible"
+					Type: "Bool"
+					Value: false
+			Children
+		13
+			ClassName: "Frame"
+			IsService: false
+			Reference: 13
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseZero"
+			Children
+		14
+			ClassName: "Frame"
+			IsService: false
+			Reference: 14
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseLowerF"
+			Children
+		15
+			ClassName: "Frame"
+			IsService: false
+			Reference: 15
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseUpperF"
+			Children
+		16
+			ClassName: "Frame"
+			IsService: false
+			Reference: 16
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseInvalid"
+			Children
+		17
+			ClassName: "Frame"
+			IsService: false
+			Reference: 17
+			Properties
+				0
+					Name: "Name"
+					Type: "String"
+					Value: "FalseEmpty"
+			Children
