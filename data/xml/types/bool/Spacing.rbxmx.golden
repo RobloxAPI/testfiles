@@ -1,5 +1,5 @@
 Format: rbxmx
-Struct: model
+Output: model
 Data
 	Metadata
 	Instances

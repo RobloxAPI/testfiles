@@ -1,7 +1,7 @@
 # Model format
 The model format displays a tree of instances and their properties.
 
-- **Struct:** `model`
+- **Output:** `model`
 - **Directive:** `model`
 - **Formats:**
 	- `rbxl`
@@ -10,7 +10,7 @@ The model format displays a tree of instances and their properties.
 	- `rbxmx`
 
 ## Remarks
-The format uses the standard struct with Format, Struct, and Data fields,
+The format uses the standard struct with Format, Output, and Data fields,
 described [here](../README.md#user-content-common). The type of the Data field
 is a [Root][Root] struct.
 

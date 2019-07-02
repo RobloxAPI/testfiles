@@ -84,14 +84,14 @@ Each golden file, unless specified otherwise, is a standard struct with three
 fields:
 
 - `Format`: The format of the corresponding input file.
-- `Struct`: A value indicating the structure of the `Data` field, as determined
+- `Output`: A value indicating the structure of the `Data` field, as determined
   by directives in the input file.
 - `Data`: The value representing the content of the input file through the
   determined structure.
 
 Each format has several pieces of information associated with it:
 
-- **Struct:** The value displayed in the `Struct` field of the standard struct
+- **Output:** The value displayed in the `Output` field of the standard struct
   when the format is used.
 - **Directive:** The directive that causes the format to be used.
 - **Formats:** A list of supported input formats.
@@ -186,7 +186,7 @@ The model format displays the structure of an instance tree.
 
 [**Specification**](golden/model.md)
 
-- **Struct:** `model`
+- **Output:** `model`
 - **Directive:** `model`
 - **Formats:** `rbxl`, `rbxm`, `rbxlx`, `rbxmx`
 
@@ -195,7 +195,7 @@ The binary format displays the binary structure of an instance tree file.
 
 [**Specification**](golden/binary.md)
 
-- **Struct:** `binary`
+- **Output:** `binary`
 - **Directive:** `format`
 - **Formats:** `rbxl`, `rbxm`
 
@@ -204,7 +204,7 @@ The XML format displays the XML structure of an instance tree file.
 
 [**Specification**](golden/xml.md)
 
-- **Struct:** `xml`
+- **Output:** `xml`
 - **Directive:** `format`
 - **Formats:** `rbxl` (legacy only), `rbxm` (legacy only), `rbxlx`, `rbxmx`
 
@@ -213,6 +213,6 @@ The error format displays errors that are expected to occur.
 
 [**Specification**](golden/error.md)
 
-- **Struct:** `error`
+- **Output:** `error`
 - **Directive:** `error`
 - **Formats:** Any
