@@ -10,6 +10,29 @@ Listed are the specifications for the various Roblox data formats:
 - [~`terrain`~](format/terrain.md): Terrain data.
 - [~`csgphs`~](format/csgphs.md): CSG physical data.
 
+## Directives
+Regardless of the format, any input file may begin with a number of
+**directives**. A directive is a line that starts with a `#` character. The
+first line in the file that isn't a directive begins the actual **content** of
+the file.
+
+Directives have two formats:
+
+- `#flag`: Causes the "flag" directive to be enabled.
+- `#key:value`: Sets the "key" directive to "value".
+
+`flag` and `key` may contain any character that isn't `:`, `\r`, or `\n`.
+`value` may contain any character that isn't `\r` or `\n`. Leading and trailing
+whitespace around `flag`, `key`, and `value` is ignored.
+
+The following directives are defined:
+
+Directive                         | Description
+----------------------------------|------------
+<code>**#format:** *value*</code> | Overrides the file extension, causing the content to be interpreted as the `value` format.
+<code>**#output:** *value*</code> | Sets the format of the corresponding golden file to `value`.
+<code>**#begin-content**</code>   | Causes directives to stop being parsed. The next line begins the actual content of the file.
+
 # Golden formats
 
 ## Common

@@ -101,6 +101,9 @@ func generateSpacing(typ string, split bool) {
 		return
 	}
 
+	const headerFormat = "" +
+		"#output: model\n" +
+		"<roblox version=\"4\">\n"
 	const itemFormat = "" +
 		"\t<Item class=\"%[1]s\">\n" +
 		"\t\t<Properties>\n" +
@@ -108,6 +111,8 @@ func generateSpacing(typ string, split bool) {
 		"\t\t\t<%[4]s name=\"%[3]s\">%[5]s</%[4]s>\n" +
 		"\t\t</Properties>\n" +
 		"\t</Item>\n"
+	const footerFormat = "" +
+		"</roblox>\n"
 
 	var w *file
 	var dir string
@@ -117,32 +122,32 @@ func generateSpacing(typ string, split bool) {
 			return
 		}
 	} else {
-		w = Open(filepath.Join("xml", "types", typ, "Spacing.model.rbxmx"))
+		w = Open(filepath.Join("xml", "types", typ, "Spacing.rbxmx"))
 		if w == nil {
 			return
 		}
-		w.WriteString("<roblox version=\"4\">\n")
+		w.WriteString(headerFormat)
 	}
 	for _, def := range def {
 		for _, format := range spaceFormats {
 			name := def.name + format.name
 			if split {
-				w = Open(filepath.Join(dir, name+".model.rbxmx"))
+				w = Open(filepath.Join(dir, name+".rbxmx"))
 				if w == nil {
 					continue
 				}
-				w.WriteString("<roblox version=\"4\">\n")
+				w.WriteString(headerFormat)
 			}
 			value := fmt.Sprintf(format.str, def.value)
 			fmt.Fprintf(w, itemFormat, def.class, name, def.prop, typ, value)
 			if split {
-				w.WriteString("</roblox>\n")
+				w.WriteString(footerFormat)
 				w.Close()
 			}
 		}
 	}
 	if !split {
-		w.WriteString("</roblox>\n")
+		w.WriteString(footerFormat)
 		w.Close()
 	}
 }
