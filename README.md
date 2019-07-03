@@ -53,16 +53,18 @@ file's name without the extension. e.g. `Baseplate.rbxl` maps to
 `Baseplate.rbxl.golden`.
 
 #### Input file names
-The name of an input file determines how it is read. The **extension** of the
-file name determines the format used to decode the file. The name may have a
-number of **directives** that determine the structure of the corresponding
-golden file. A directive is indicated by a string of characters following a `.`
-character. For example, the file name:
+The **extension** of the file name determines the format used to decode the
+file. For example, the file name:
 
-	numberSequence.model.error.rbxl
+	numberSequence.rbxl
 
-has the directives `model`, `error`, and `rbxl`, with `rbxl` also being the
-format of the file.
+will be decoded with the `rbxl` format.
+
+#### Directives
+An input file may begin with a number of **directives**, which control how the
+file is tested. A directive is a line that begins with a `#`.
+
+See [Directives](spec/README.md#user-content-directives) for more information.
 
 ## Testing
 To test an implementation against the database, a program must be written. The
@@ -74,10 +76,10 @@ program should satisfy the following properties:
 	- Files starting with `.` are ignored.
 	- Files with the `.golden` extension are golden files.
 	- All other files are input files.
-- The program must parse the name of an input file for the format and any
-  directives, which are used to determine the content of the corresponding
-  golden file.
-- An input file with an unknown format can be ignored. Unknown directives may
+- The program must parse the name of an input file for the format.
+- The program must parse directives within the input file according to the
+  [directives spec](spec/README.md#user-content-directives).
+- An input file with an unknown extension can be ignored. Unknown directives may
   also be ignored.
 - For each valid input file, the program must produce a string that is matched
   exactly with the content of the corresponding golden file, in order for the
