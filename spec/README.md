@@ -34,109 +34,118 @@ Directive                         | Description
 <code>**#begin-content**</code>   | Causes directives to stop being parsed. The next line begins the actual content of the file.
 
 # Golden formats
+A golden file is formatted as JSON, according to [RFC 8259][RFC8259]. The
+specification of a golden file format describes the structure of such JSON data.
+It may also provide recommendations for formatting the content of the file (i.e.
+indentation).
 
-## Common
-The formats of golden files share a common structure:
+For two golden files to be considered equal, they must be semantically
+equivalent according to their JSON structure. The raw content of the files do
+not need to be binary equal.
 
-Each line usually contains a **field**, which consists of a name paired with a
-**value**. A field name is usually constant.
+[RFC8259]: https://tools.ietf.org/html/rfc8259
 
-```
-Field: Value
-```
+## Common formatting
+For readability purposes, a golden file should be formatted such that one piece
+of information is on a single line.
 
-Depending on the content, the value may appear on multiple lines with an
-additional level of indentation.
+- Newlines should consist only of the line feed (`\n`) character (not `\r\n`).
+- A value within an array or a member within an object should appear on its own
+  line, and should be indented with tabs (`\t`).
+- A single space character should appear between the `:` and the value of an
+  object member.
+- Opening structural delimiters should appear on the same line as the name.
+- Closing structural delimiters should appear on a new line, unless the
+  structure is empty.
+- Object members should be sorted by key.
 
-```
-Field
-	Value
-```
-
-A value may be a **struct**, which consists of a number of sub-fields.
-
-```
-Struct
-	FieldA: Value1
-	FieldB: Value2
-	FieldC
-		Foo: 1
-		Bar: 2
-```
-
-A **list** is like a struct, except that each field is an index.
-
-```
-ListOfValues
-	0: ValueA
-	1: ValueB
-	2: ValueC
-ListOfStructs
-	0
-		FieldA: Value1
-		FieldB: Value2
-	1
-		FieldA: Value1
-		FieldB: Value2
+Example:
+```json
+{
+	"Array": [
+		1,
+		2,
+		3
+	],
+	"Bool": true,
+	"Number": 0,
+	"Object": {
+		"EmptyArray": [],
+		"EmptyObject": {}
+	},
+	"String": "foobar"
+}
 ```
 
-Each golden file, unless specified otherwise, is a standard struct with three
-fields:
+Depending on the structure, a specification may recommend more specific
+formatting.
 
-- `Format`: The format of the corresponding input file.
-- `Output`: A value indicating the structure of the `Data` field, as determined
+## Common structure
+All golden files share several common structures.
+
+A member of an object will be described as having a "type", which may be
+represented by one or more JSON types. The member *must* have a JSON value that
+correctly represents this type. For example, the value of a `float` type may be
+any JSON number, one of the JSON strings "Infinity", "-Infinity", or "NaN", but
+not any other value.
+
+Each golden file, unless specified otherwise, is a JSON object (the "root") with
+three members:
+
+- `Format`: A string indicating the format of the corresponding input file.
+- `Output`: A string indicating the structure of the `Data` field, as determined
   by directives in the input file.
 - `Data`: The value representing the content of the input file through the
   determined structure.
 
-Each format has several pieces of information associated with it:
-
-- **Output:** The value displayed in the `Output` field of the standard struct
-  when the format is used.
-- **Directive:** The directive that causes the format to be used.
-- **Formats:** A list of supported input formats.
-
-Golden files are encoded in UTF-8.
-
 ### Primitive value types
-Formats may use several common primitives value types:
+Formats may refer to several common primitive value types:
 
 #### bool
-A boolean value.
+A boolean value. Represented by a JSON boolean.
 
-	Value: true
-	Value: false
+```json
+true
+false
+```
 
 #### int
-A signed integer in base 10.
+A signed integer in base 10. Represented by a JSON number. The number should not
+have a fractional part.
 
-	Value: 10
-	Value: -10
+```json
+10
+-10
+```
 
 #### uint
-An unsigned integer in base 10.
+An unsigned integer in base 10. Represented by a JSON number. The number should
+not have a fractional part.
 
-	Value: 10
+```json
+10
+```
 
 #### float
-A floating point number in a decimal format, following rules similar to printf.
-Single precision uses `%.9g` as the formatter, and double precision uses
-`%.17g`.
+A floating point number. Represented by a JSON number. Infinity and NaN are
+represented by literal JSON strings. The number should be formatted with enough
+precision to accurately reproduce the intended value.
 
-	Single: 3.14159274
-	Single: 99003.7812
-	Single: -0.555555582
-	Double: 3.1415926535897931
-	Double: 99003.78125
-	Double: -0.55555555555555558
-
-Rounding currently uses half-to-even. If you have an implementation that uses
-half-away-to-zero or some other odd behavior, see issue #1.
+```json
+3.1415926535897931
+99003.78125
+-0.55555555555555558
+1
+"Infinity"
+"-Infinity"
+"NaN"
+```
 
 #### bytes
-A sequence of bytes displayed on multiple lines. The first line is a "Length"
-field whose value is the length of the sequence. Subsequent lines display the
-bytes in a hex-dump format.
+A sequence of bytes. Represented by a JSON array of numbers, each being an
+integer between 0 and 255. The array may be formatted by wrapping onto a new
+line every 16 values. Spaces may be added before a value to align it to a width
+of 3 characters.
 
 For example, the following string:
 
@@ -144,44 +153,35 @@ For example, the following string:
 	The only winning move
 	is not to play.
 
-is formatted as:
+may be formatted as:
 
-	Value
-		Length: 51
-		| 53 74 72 61 6e 67 65 20  67 61 6d 65 2e 0a 54 68 |Strange game..Th|
-		| 65 20 6f 6e 6c 79 20 77  69 6e 6e 69 6e 67 20 6d |e only winning m|
-		| 6f 76 65 0a 69 73 20 6e  6f 74 20 74 6f 20 70 6c |ove.is not to pl|
-		| 61 79 2e                                         |ay.|
-
-- The display is wrapped to 16 bytes.
-- An extra space is inserted after the 8th byte.
-- Bytes outside the inclusive range of 32-126 are displayed as `.`.
-
-If the length of the sequence is less than 16, then the display is shortened to
-the length:
-
-	Value
-		Length: 12
-		| 53 74 72 61 6e 67 65 20  67 61 6d 65 |Strange game|
+```json
+[
+	 83,116,114, 97,110,103,101, 32,103, 97,109,101, 46, 10, 84,104,
+	101, 32,111,110,108,121, 32,119,105,110,110,105,110,103, 32,109,
+	111,118,101, 10,105,115, 32,110,111,116, 32,116,111, 32,112,108,
+	 97,121, 46
+]
+```
 
 #### string
-A string contained between `"` characters.
+A unicode string. Represented by a JSON string. May contain any unicode
+character. For characters that must be escaped, the shortest possible form is
+preferred.
 
-	Value: "Strange game.\nThe only winning move\nis not to play."
+```json
+"Strange game.\nThe only winning move\nis not to play."
+```
 
-The following characters are escaped:
+## Formats
+Each format has several pieces of information associated with it:
 
-Character | Escape
-----------|-------
-`"`       | `\"`
-`\`       | `\\`
-newline   | `\n`
-tab       | `\t`
+- **Output:** The value displayed in the `Output` field of the root object when
+  the format is used.
+- **Directive:** The directive that causes the format to be used.
+- **Formats:** A list of supported input formats.
 
-If a string contains non-printable characters, then it is instead formatted as
-bytes.
-
-## Model format
+### Model
 The model format displays the structure of an instance tree.
 
 [**Specification**](golden/model.md)
@@ -190,7 +190,7 @@ The model format displays the structure of an instance tree.
 - **Directive:** `model`
 - **Formats:** `rbxl`, `rbxm`, `rbxlx`, `rbxmx`
 
-## Binary format
+### Binary
 The binary format displays the binary structure of an instance tree file.
 
 [**Specification**](golden/binary.md)
@@ -199,7 +199,7 @@ The binary format displays the binary structure of an instance tree file.
 - **Directive:** `format`
 - **Formats:** `rbxl`, `rbxm`
 
-## XML format
+### XML
 The XML format displays the XML structure of an instance tree file.
 
 [**Specification**](golden/xml.md)
@@ -208,7 +208,7 @@ The XML format displays the XML structure of an instance tree file.
 - **Directive:** `format`
 - **Formats:** `rbxl` (legacy only), `rbxm` (legacy only), `rbxlx`, `rbxmx`
 
-## Error format
+### Error
 The error format displays errors that are expected to occur.
 
 [**Specification**](golden/error.md)
