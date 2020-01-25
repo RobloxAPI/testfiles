@@ -173,6 +173,16 @@ preferred.
 "Strange game.\nThe only winning move\nis not to play."
 ```
 
+A string must instead be displayed as [bytes](#user-content-bytes) if it
+contains at least one non-Graphic character (as defined by Unicode) that isn't
+the following:
+
+	U+0008  backspace        \b
+	U+0009  tab              \t
+	U+000A  line feed        \n
+	U+000C  form feed        \f
+	U+000D  carriage return  \r
+
 ## Formats
 Each format has several pieces of information associated with it:
 
