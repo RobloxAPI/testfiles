@@ -81,15 +81,15 @@ program should satisfy the following properties:
   [directives spec](spec/README.md#user-content-directives).
 - An input file with an unknown extension can be ignored. Unknown directives may
   also be ignored.
-- For each valid input file, the program must produce a string that is matched
-  exactly with the content of the corresponding golden file, in order for the
-  implementation to be considered correct.
+- For each valid input file, the program must produce a JSON structure that is
+  semantically equal to the content of the corresponding golden file, in order
+  for the implementation to be considered correct.
 - If there is no corresponding golden file, then the content must be considered
   empty.
-- If the string does not match, the program should output a human-readable
-  difference between the produced string and the content.
+- If the JSON structure does not match, the program should output a
+  human-readable difference between the produced structure and the content.
 - If some sort of "update" flag is explicitly provided to the program, then the
-  produced string should be written to the golden file. The program should
+  produced structure should be written to the golden file. The program should
   output the difference.
 
 ## Licensing
