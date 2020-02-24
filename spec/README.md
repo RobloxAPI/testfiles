@@ -142,10 +142,8 @@ precision to accurately reproduce the intended value.
 ```
 
 #### bytes
-A sequence of bytes. Represented by a JSON array of numbers, each being an
-integer between 0 and 255. The array may be formatted by wrapping onto a new
-line every 16 values. Spaces may be added before a value to align it to a width
-of 3 characters.
+A sequence of bytes. Represented by a JSON array of strings. Each JSON string
+displays a line of the sequence in a hexdump format.
 
 For example, the following string:
 
@@ -153,16 +151,25 @@ For example, the following string:
 	The only winning move
 	is not to play.
 
-may be formatted as:
+is formatted as:
 
-```json
-[
-	 83,116,114, 97,110,103,101, 32,103, 97,109,101, 46, 10, 84,104,
-	101, 32,111,110,108,121, 32,119,105,110,110,105,110,103, 32,109,
-	111,118,101, 10,105,115, 32,110,111,116, 32,116,111, 32,112,108,
-	 97,121, 46
-]
-```
+	[
+		"| 53 74 72 61 6e 67 65 20  67 61 6d 65 2e 0a 54 68 |Strange game..Th|",
+		"| 65 20 6f 6e 6c 79 20 77  69 6e 6e 69 6e 67 20 6d |e only winning m|",
+		"| 6f 76 65 0a 69 73 20 6e  6f 74 20 74 6f 20 70 6c |ove.is not to pl|",
+		"| 61 79 2e                                         |ay.|"
+	]
+
+- The display is wrapped to 16 bytes.
+- An extra space is inserted after the 8th byte.
+- Bytes outside the inclusive range of 32-126 are displayed as `.`.
+
+If the length of the sequence is less than 16, then the display is shortened to
+the length:
+
+	[
+		"| 53 74 72 61 6e 67 65 20  67 61 6d 65 |Strange game|"
+	]
 
 #### string
 A unicode string. Represented by a JSON string. May contain any unicode
