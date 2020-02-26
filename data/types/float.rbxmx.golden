@@ -1,0 +1,9239 @@
+{
+	"Format": "rbxmx",
+	"Output": "model",
+	"Data": {
+		"Metadata": [],
+		"Instances": [
+			{
+				"ClassName": "Folder",
+				"IsService": false,
+				"Reference": 0,
+				"Properties": [
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "float"
+					}
+				],
+				"Children": [
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 1,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 2,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.40129846e-45
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 3,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.73691591e-42
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 4,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.73831721e-42
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 5,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.87173204e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 6,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.87173344e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 7,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.87746895e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 8,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.87747035e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 9,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.87747175e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 10,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.87747316e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 11,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.88320867e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 12,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.88321007e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 13,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17492038e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 14,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17492052e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 15,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17549407e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 16,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17549421e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 17,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17549435e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 18,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17549449e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 19,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17606804e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 20,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.17606818e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 21,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76266755e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 22,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76266769e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 23,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76324125e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 24,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76324139e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 25,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76324153e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 26,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76324167e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 27,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76381522e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 28,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.76381536e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 29,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.35041473e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 30,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.35041487e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 31,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.35098842e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 32,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00000001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.35098856e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 33,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.62964972e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 34,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.62965087e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 35,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.6343494e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 36,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.63435055e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 37,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44397726e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 38,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44397738e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 39,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44444723e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 40,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44444734e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 41,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44444746e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 42,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44444757e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 43,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44491743e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 44,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.44491754e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 45,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92545975e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 46,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92545986e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 47,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92592971e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 48,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92592983e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 49,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92592994e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 50,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92593017e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 51,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92686988e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 52,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.92687011e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 53,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88795452e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 54,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88795475e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 55,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88889446e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 56,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88889469e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 57,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88889492e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 58,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88889515e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 59,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88983485e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 60,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.88983508e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 61,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.85091949e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 62,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.85091972e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 63,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.85185943e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 64,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_00001111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.85185966e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 65,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.05175781e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 66,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.05175818e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 67,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.0532472e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 68,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.05324756e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 69,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.5761466e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 70,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57614697e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 71,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57763599e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 72,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57763635e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 73,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57763672e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 74,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57763708e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 75,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57912611e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 76,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.57912647e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 77,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.10202551e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 78,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.10202587e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 79,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.1035149e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 80,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.10351526e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 81,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.10351562e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 82,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.10351635e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 83,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.1064944e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 84,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.10649513e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 85,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15229321e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 86,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15229393e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 87,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15527198e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 88,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15527271e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 89,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15527344e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 90,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15527417e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 91,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15825221e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 92,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 9.15825294e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 93,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.00012204051
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 94,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.000122040517
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 95,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.000122070298
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 96,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01110001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.000122070305
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 97,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.5
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 98,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.50000006
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 99,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.500244021
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 100,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.500244081
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 101,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.749755859
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 102,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.749755919
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 103,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.749999881
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 104,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.74999994
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 105,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.75
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 106,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.75000006
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 107,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.750244021
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 108,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.750244081
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 109,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.999755859
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 110,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.999755919
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 111,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.999999881
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 112,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 0.99999994
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 113,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 114,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.00000012
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 115,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.00048804
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 116,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.00048816
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 117,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.49951172
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 118,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.49951184
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 119,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.49999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 120,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.49999988
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 121,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.5
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 122,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.50000012
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 123,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.50048804
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 124,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.50048816
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 125,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.99951172
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 126,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.99951184
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 127,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.99999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 128,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_01111111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.99999988
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 129,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 130,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.00000024
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 131,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.00097609
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 132,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.00097632
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 133,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.99902344
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 134,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.99902368
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 135,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 136,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.99999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 137,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 138,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.00000024
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 139,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.00097609
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 140,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.00097632
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 141,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.99902344
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 142,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.99902368
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 143,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 144,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.99999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 145,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 146,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.00000048
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 147,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.00195217
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 148,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.00195265
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 149,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.99804688
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 150,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.99804735
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 151,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.99999905
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 152,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 5.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 153,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 154,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.00000048
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 155,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.00195217
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 156,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 6.00195265
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 157,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 7.99804688
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 158,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 7.99804735
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 159,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 7.99999905
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 160,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10000001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 7.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 161,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 32768
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 162,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 32768.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 163,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 32783.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 164,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 32783.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 165,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49136
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 166,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49136.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 167,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49151.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 168,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49151.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 169,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49152
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 170,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49152.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 171,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49167.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 172,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 49167.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 173,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65520
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 174,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65520.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 175,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65535.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 176,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65535.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 177,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65536
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 178,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65536.0078
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 179,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65567.9844
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 180,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 65567.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 181,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98272
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 182,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98272.0078
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 183,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98303.9844
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 184,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98303.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 185,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98304
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 186,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98304.0078
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 187,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98335.9844
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 188,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 98335.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 189,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 131040
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 190,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 131040.008
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 191,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 131071.984
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 192,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_10001111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 131071.992
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 193,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.03845937e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 194,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.0384595e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 195,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.03896618e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 196,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.03896631e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 197,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.557182e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 198,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55718212e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 199,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55768881e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 200,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55768893e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 201,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55768906e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 202,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55768918e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 203,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55819587e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 204,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.55819599e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 205,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07641168e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 206,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07641181e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 207,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.0769185e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 208,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07691862e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 209,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07691874e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 210,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07691899e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 211,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07793237e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 212,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.07793262e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 213,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11436399e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 214,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11436424e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 215,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11537762e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 216,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11537787e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 217,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11537812e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 218,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11537836e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 219,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11639174e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 220,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.11639199e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 221,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.15282337e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 222,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.15282361e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 223,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.15383699e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 224,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11110001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 4.15383724e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 225,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.70141183e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 226,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.70141204e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 227,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.7022422e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 228,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 1.7022424e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 229,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55128698e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 230,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55128719e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 231,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55211735e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 232,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55211755e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 233,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55211775e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 234,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55211795e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 235,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55294811e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 236,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 2.55294832e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 237,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.4019929e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 238,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.4019931e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 239,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.40282326e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 240,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": 3.40282347e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 241,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "Infinity"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 242,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 243,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 244,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 245,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 246,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 247,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 248,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 249,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 250,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 251,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 252,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 253,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 254,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 255,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 256,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f0_11111111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 257,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 258,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.40129846e-45
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 259,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.73691591e-42
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 260,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.73831721e-42
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 261,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.87173204e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 262,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.87173344e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 263,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.87746895e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 264,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.87747035e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 265,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.87747175e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 266,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.87747316e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 267,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.88320867e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 268,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.88321007e-39
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 269,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17492038e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 270,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17492052e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 271,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17549407e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 272,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17549421e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 273,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17549435e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 274,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17549449e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 275,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17606804e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 276,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.17606818e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 277,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76266755e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 278,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76266769e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 279,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76324125e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 280,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76324139e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 281,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76324153e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 282,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76324167e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 283,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76381522e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 284,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.76381536e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 285,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.35041473e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 286,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.35041487e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 287,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.35098842e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 288,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00000001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.35098856e-38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 289,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.62964972e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 290,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.62965087e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 291,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.6343494e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 292,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.63435055e-35
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 293,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44397726e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 294,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44397738e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 295,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44444723e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 296,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44444734e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 297,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44444746e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 298,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44444757e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 299,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44491743e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 300,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.44491754e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 301,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92545975e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 302,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92545986e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 303,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92592971e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 304,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92592983e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 305,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92592994e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 306,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92593017e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 307,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92686988e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 308,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.92687011e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 309,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88795452e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 310,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88795475e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 311,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88889446e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 312,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88889469e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 313,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88889492e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 314,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88889515e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 315,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88983485e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 316,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.88983508e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 317,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.85091949e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 318,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.85091972e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 319,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.85185943e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 320,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_00001111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.85185966e-34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 321,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.05175781e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 322,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.05175818e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 323,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.0532472e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 324,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.05324756e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 325,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.5761466e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 326,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57614697e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 327,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57763599e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 328,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57763635e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 329,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57763672e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 330,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57763708e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 331,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57912611e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 332,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.57912647e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 333,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.10202551e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 334,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.10202587e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 335,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.1035149e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 336,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.10351526e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 337,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.10351562e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 338,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.10351635e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 339,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.1064944e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 340,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.10649513e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 341,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15229321e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 342,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15229393e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 343,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15527198e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 344,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15527271e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 345,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15527344e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 346,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15527417e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 347,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15825221e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 348,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -9.15825294e-05
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 349,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.00012204051
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 350,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.000122040517
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 351,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.000122070298
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 352,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01110001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.000122070305
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 353,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.5
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 354,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.50000006
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 355,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.500244021
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 356,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.500244081
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 357,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.749755859
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 358,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.749755919
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 359,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.749999881
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 360,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.74999994
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 361,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.75
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 362,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.75000006
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 363,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.750244021
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 364,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.750244081
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 365,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.999755859
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 366,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.999755919
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 367,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.999999881
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 368,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -0.99999994
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 369,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 370,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.00000012
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 371,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.00048804
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 372,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.00048816
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 373,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.49951172
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 374,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.49951184
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 375,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.49999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 376,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.49999988
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 377,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.5
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 378,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.50000012
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 379,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.50048804
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 380,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.50048816
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 381,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.99951172
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 382,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.99951184
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 383,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.99999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 384,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_01111111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.99999988
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 385,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 386,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.00000024
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 387,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.00097609
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 388,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.00097632
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 389,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.99902344
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 390,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.99902368
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 391,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 392,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.99999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 393,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 394,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.00000024
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 395,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.00097609
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 396,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.00097632
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 397,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.99902344
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 398,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.99902368
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 399,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 400,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.99999976
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 401,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 402,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.00000048
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 403,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.00195217
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 404,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.00195265
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 405,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.99804688
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 406,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.99804735
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 407,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.99999905
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 408,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -5.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 409,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 410,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.00000048
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 411,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.00195217
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 412,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -6.00195265
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 413,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -7.99804688
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 414,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -7.99804735
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 415,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -7.99999905
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 416,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10000001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -7.99999952
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 417,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -32768
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 418,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -32768.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 419,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -32783.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 420,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -32783.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 421,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49136
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 422,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49136.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 423,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49151.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 424,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49151.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 425,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49152
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 426,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49152.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 427,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49167.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 428,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -49167.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 429,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65520
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 430,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65520.0039
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 431,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65535.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 432,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65535.9961
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 433,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65536
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 434,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65536.0078
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 435,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65567.9844
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 436,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -65567.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 437,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98272
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 438,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98272.0078
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 439,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98303.9844
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 440,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98303.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 441,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98304
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 442,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98304.0078
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 443,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98335.9844
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 444,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -98335.9922
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 445,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -131040
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 446,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -131040.008
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 447,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -131071.984
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 448,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_10001111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -131071.992
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 449,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.03845937e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 450,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.0384595e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 451,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.03896618e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 452,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.03896631e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 453,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.557182e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 454,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55718212e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 455,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55768881e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 456,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55768893e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 457,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55768906e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 458,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55768918e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 459,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55819587e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 460,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.55819599e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 461,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07641168e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 462,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07641181e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 463,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.0769185e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 464,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110000_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07691862e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 465,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07691874e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 466,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07691899e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 467,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07793237e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 468,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.07793262e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 469,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11436399e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 470,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11436424e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 471,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11537762e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 472,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11537787e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 473,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11537812e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 474,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11537836e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 475,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11639174e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 476,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.11639199e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 477,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.15282337e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 478,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.15282361e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 479,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.15383699e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 480,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11110001_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -4.15383724e+34
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 481,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.70141183e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 482,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.70141204e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 483,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.7022422e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 484,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -1.7022424e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 485,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55128698e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 486,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55128719e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 487,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55211735e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 488,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55211755e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 489,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55211775e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 490,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55211795e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 491,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55294811e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 492,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -2.55294832e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 493,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.4019929e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 494,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.4019931e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 495,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.40282326e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 496,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111110_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": -3.40282347e+38
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 497,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_00000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "-Infinity"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 498,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_00000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 499,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_00000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 500,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_00000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 501,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_01111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 502,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_01111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 503,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_01111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 504,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_01111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 505,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_10000000000000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 506,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_10000000000000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 507,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_10000000000111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 508,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_10000000000111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 509,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_11111111111000000000000"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 510,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_11111111111000000000001"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 511,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_11111111111111111111110"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					},
+					{
+						"ClassName": "BlurEffect",
+						"IsService": false,
+						"Reference": 512,
+						"Properties": [
+							{
+								"Name": "Name",
+								"Type": "String",
+								"Value": "f1_11111111_11111111111111111111111"
+							},
+							{
+								"Name": "Size",
+								"Type": "Float",
+								"Value": "NaN"
+							}
+						],
+						"Children": []
+					}
+				]
+			}
+		]
+	}
+}
