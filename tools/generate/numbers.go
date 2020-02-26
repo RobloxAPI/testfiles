@@ -8,11 +8,11 @@ import (
 
 func init() {
 	Define("type_float", "Generate data/types/float* files.", func() {
-		w := Open("types/float.model.rbxmx")
+		w := Open("types/float.rbxmx")
 		if w == nil {
 			return
 		}
-		w.WriteString("<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">float</string></Properties>\n")
+		w.WriteString("#output: model\n<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">float</string></Properties>\n")
 		itbits("0 abbbcccd ABBBBBBBBBBCCCCCCCCCCCD", func(v uint64, i int) {
 			f := math.Float32frombits(uint32(v))
 			fmt.Fprintf(w, "\t\t<Item class=\"BlurEffect\"><Properties><string name=\"Name\">f%s</string><float name=\"Size\">%.20g</float></Properties></Item>\n", u32bits(uint32(v)), f)
@@ -22,11 +22,11 @@ func init() {
 	})
 
 	Define("type_double", "Generate data/types/double* files.", func() {
-		w := Open("types/double.model.rbxmx")
+		w := Open("types/double.rbxmx")
 		if w == nil {
 			return
 		}
-		w.WriteString("<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">double</string></Properties>\n")
+		w.WriteString("#output: model\n<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">double</string></Properties>\n")
 		itbits("0 abbbbcccccd ABBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCD", func(v uint64, i int) {
 			f := math.Float64frombits(v)
 			fmt.Fprintf(w, "\t\t<Item class=\"NumberValue\"><Properties><string name=\"Name\">d%s</string><double name=\"Value\">%.20g</double></Properties></Item>\n", u64bits(v), f)
