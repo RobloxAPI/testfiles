@@ -1,4 +1,5 @@
 #output: model
+## Test leading and trailing spacing within type elements.
 <roblox version="4">
 	<Item class="BoolValue">
 		<Properties>

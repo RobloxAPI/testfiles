@@ -86,6 +86,7 @@ func generateIntegers(typ string, split bool) {
 
 	const headerFormat = "" +
 		"#output: model\n" +
+		"## Test constraints and overflow of integer type elements.\n" +
 		"<roblox version=\"4\">\n"
 	const itemFormat = "" +
 		"\t<Item class=\"%[1]s\">\n" +
