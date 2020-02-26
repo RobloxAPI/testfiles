@@ -60,6 +60,10 @@ repository.
 		fmt.Fprintln(flag.CommandLine.Output(), usage)
 		flag.PrintDefaults()
 	}
+	if len(os.Args) < 2 {
+		flag.Usage()
+		return
+	}
 	flag.Parse()
 	for _, def := range defs {
 		if *def.value {
