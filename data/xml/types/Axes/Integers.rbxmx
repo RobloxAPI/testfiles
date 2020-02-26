@@ -1,0 +1,867 @@
+#output: model
+<roblox version="4">
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2MinUnderflowMore_-4</string>
+			<Axes name="Axes"><axes>-4</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2MinUnderflow_-3</string>
+			<Axes name="Axes"><axes>-3</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2Min_-2</string>
+			<Axes name="Axes"><axes>-2</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2MinIn_-1</string>
+			<Axes name="Axes"><axes>-1</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2MaxIn_0</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2Max_1</string>
+			<Axes name="Axes"><axes>1</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2MaxOverflow_2</string>
+			<Axes name="Axes"><axes>2</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int2MaxOverflowMore_3</string>
+			<Axes name="Axes"><axes>3</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8MinUnderflowMore_-130</string>
+			<Axes name="Axes"><axes>-130</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8MinUnderflow_-129</string>
+			<Axes name="Axes"><axes>-129</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8Min_-128</string>
+			<Axes name="Axes"><axes>-128</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8MinIn_-127</string>
+			<Axes name="Axes"><axes>-127</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8MaxIn_126</string>
+			<Axes name="Axes"><axes>126</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8Max_127</string>
+			<Axes name="Axes"><axes>127</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8MaxOverflow_128</string>
+			<Axes name="Axes"><axes>128</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int8MaxOverflowMore_129</string>
+			<Axes name="Axes"><axes>129</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9MinUnderflowMore_-258</string>
+			<Axes name="Axes"><axes>-258</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9MinUnderflow_-257</string>
+			<Axes name="Axes"><axes>-257</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9Min_-256</string>
+			<Axes name="Axes"><axes>-256</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9MinIn_-255</string>
+			<Axes name="Axes"><axes>-255</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9MaxIn_254</string>
+			<Axes name="Axes"><axes>254</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9Max_255</string>
+			<Axes name="Axes"><axes>255</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9MaxOverflow_256</string>
+			<Axes name="Axes"><axes>256</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int9MaxOverflowMore_257</string>
+			<Axes name="Axes"><axes>257</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16MinUnderflowMore_-32770</string>
+			<Axes name="Axes"><axes>-32770</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16MinUnderflow_-32769</string>
+			<Axes name="Axes"><axes>-32769</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16Min_-32768</string>
+			<Axes name="Axes"><axes>-32768</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16MinIn_-32767</string>
+			<Axes name="Axes"><axes>-32767</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16MaxIn_32766</string>
+			<Axes name="Axes"><axes>32766</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16Max_32767</string>
+			<Axes name="Axes"><axes>32767</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16MaxOverflow_32768</string>
+			<Axes name="Axes"><axes>32768</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int16MaxOverflowMore_32769</string>
+			<Axes name="Axes"><axes>32769</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17MinUnderflowMore_-65538</string>
+			<Axes name="Axes"><axes>-65538</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17MinUnderflow_-65537</string>
+			<Axes name="Axes"><axes>-65537</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17Min_-65536</string>
+			<Axes name="Axes"><axes>-65536</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17MinIn_-65535</string>
+			<Axes name="Axes"><axes>-65535</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17MaxIn_65534</string>
+			<Axes name="Axes"><axes>65534</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17Max_65535</string>
+			<Axes name="Axes"><axes>65535</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17MaxOverflow_65536</string>
+			<Axes name="Axes"><axes>65536</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int17MaxOverflowMore_65537</string>
+			<Axes name="Axes"><axes>65537</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24MinUnderflowMore_-8388610</string>
+			<Axes name="Axes"><axes>-8388610</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24MinUnderflow_-8388609</string>
+			<Axes name="Axes"><axes>-8388609</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24Min_-8388608</string>
+			<Axes name="Axes"><axes>-8388608</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24MinIn_-8388607</string>
+			<Axes name="Axes"><axes>-8388607</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24MaxIn_8388606</string>
+			<Axes name="Axes"><axes>8388606</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24Max_8388607</string>
+			<Axes name="Axes"><axes>8388607</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24MaxOverflow_8388608</string>
+			<Axes name="Axes"><axes>8388608</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int24MaxOverflowMore_8388609</string>
+			<Axes name="Axes"><axes>8388609</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25MinUnderflowMore_-16777218</string>
+			<Axes name="Axes"><axes>-16777218</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25MinUnderflow_-16777217</string>
+			<Axes name="Axes"><axes>-16777217</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25Min_-16777216</string>
+			<Axes name="Axes"><axes>-16777216</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25MinIn_-16777215</string>
+			<Axes name="Axes"><axes>-16777215</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25MaxIn_16777214</string>
+			<Axes name="Axes"><axes>16777214</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25Max_16777215</string>
+			<Axes name="Axes"><axes>16777215</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25MaxOverflow_16777216</string>
+			<Axes name="Axes"><axes>16777216</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int25MaxOverflowMore_16777217</string>
+			<Axes name="Axes"><axes>16777217</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32MinUnderflowMore_-2147483650</string>
+			<Axes name="Axes"><axes>-2147483650</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32MinUnderflow_-2147483649</string>
+			<Axes name="Axes"><axes>-2147483649</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32Min_-2147483648</string>
+			<Axes name="Axes"><axes>-2147483648</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32MinIn_-2147483647</string>
+			<Axes name="Axes"><axes>-2147483647</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32MaxIn_2147483646</string>
+			<Axes name="Axes"><axes>2147483646</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32Max_2147483647</string>
+			<Axes name="Axes"><axes>2147483647</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32MaxOverflow_2147483648</string>
+			<Axes name="Axes"><axes>2147483648</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int32MaxOverflowMore_2147483649</string>
+			<Axes name="Axes"><axes>2147483649</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33MinUnderflowMore_-4294967298</string>
+			<Axes name="Axes"><axes>-4294967298</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33MinUnderflow_-4294967297</string>
+			<Axes name="Axes"><axes>-4294967297</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33Min_-4294967296</string>
+			<Axes name="Axes"><axes>-4294967296</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33MinIn_-4294967295</string>
+			<Axes name="Axes"><axes>-4294967295</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33MaxIn_4294967294</string>
+			<Axes name="Axes"><axes>4294967294</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33Max_4294967295</string>
+			<Axes name="Axes"><axes>4294967295</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33MaxOverflow_4294967296</string>
+			<Axes name="Axes"><axes>4294967296</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int33MaxOverflowMore_4294967297</string>
+			<Axes name="Axes"><axes>4294967297</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40MinUnderflowMore_-549755813890</string>
+			<Axes name="Axes"><axes>-549755813890</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40MinUnderflow_-549755813889</string>
+			<Axes name="Axes"><axes>-549755813889</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40Min_-549755813888</string>
+			<Axes name="Axes"><axes>-549755813888</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40MinIn_-549755813887</string>
+			<Axes name="Axes"><axes>-549755813887</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40MaxIn_549755813886</string>
+			<Axes name="Axes"><axes>549755813886</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40Max_549755813887</string>
+			<Axes name="Axes"><axes>549755813887</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40MaxOverflow_549755813888</string>
+			<Axes name="Axes"><axes>549755813888</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int40MaxOverflowMore_549755813889</string>
+			<Axes name="Axes"><axes>549755813889</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41MinUnderflowMore_-1099511627778</string>
+			<Axes name="Axes"><axes>-1099511627778</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41MinUnderflow_-1099511627777</string>
+			<Axes name="Axes"><axes>-1099511627777</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41Min_-1099511627776</string>
+			<Axes name="Axes"><axes>-1099511627776</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41MinIn_-1099511627775</string>
+			<Axes name="Axes"><axes>-1099511627775</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41MaxIn_1099511627774</string>
+			<Axes name="Axes"><axes>1099511627774</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41Max_1099511627775</string>
+			<Axes name="Axes"><axes>1099511627775</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41MaxOverflow_1099511627776</string>
+			<Axes name="Axes"><axes>1099511627776</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int41MaxOverflowMore_1099511627777</string>
+			<Axes name="Axes"><axes>1099511627777</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48MinUnderflowMore_-140737488355330</string>
+			<Axes name="Axes"><axes>-140737488355330</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48MinUnderflow_-140737488355329</string>
+			<Axes name="Axes"><axes>-140737488355329</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48Min_-140737488355328</string>
+			<Axes name="Axes"><axes>-140737488355328</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48MinIn_-140737488355327</string>
+			<Axes name="Axes"><axes>-140737488355327</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48MaxIn_140737488355326</string>
+			<Axes name="Axes"><axes>140737488355326</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48Max_140737488355327</string>
+			<Axes name="Axes"><axes>140737488355327</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48MaxOverflow_140737488355328</string>
+			<Axes name="Axes"><axes>140737488355328</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int48MaxOverflowMore_140737488355329</string>
+			<Axes name="Axes"><axes>140737488355329</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49MinUnderflowMore_-281474976710658</string>
+			<Axes name="Axes"><axes>-281474976710658</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49MinUnderflow_-281474976710657</string>
+			<Axes name="Axes"><axes>-281474976710657</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49Min_-281474976710656</string>
+			<Axes name="Axes"><axes>-281474976710656</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49MinIn_-281474976710655</string>
+			<Axes name="Axes"><axes>-281474976710655</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49MaxIn_281474976710654</string>
+			<Axes name="Axes"><axes>281474976710654</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49Max_281474976710655</string>
+			<Axes name="Axes"><axes>281474976710655</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49MaxOverflow_281474976710656</string>
+			<Axes name="Axes"><axes>281474976710656</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int49MaxOverflowMore_281474976710657</string>
+			<Axes name="Axes"><axes>281474976710657</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56MinUnderflowMore_-36028797018963970</string>
+			<Axes name="Axes"><axes>-36028797018963970</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56MinUnderflow_-36028797018963969</string>
+			<Axes name="Axes"><axes>-36028797018963969</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56Min_-36028797018963968</string>
+			<Axes name="Axes"><axes>-36028797018963968</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56MinIn_-36028797018963967</string>
+			<Axes name="Axes"><axes>-36028797018963967</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56MaxIn_36028797018963966</string>
+			<Axes name="Axes"><axes>36028797018963966</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56Max_36028797018963967</string>
+			<Axes name="Axes"><axes>36028797018963967</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56MaxOverflow_36028797018963968</string>
+			<Axes name="Axes"><axes>36028797018963968</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int56MaxOverflowMore_36028797018963969</string>
+			<Axes name="Axes"><axes>36028797018963969</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57MinUnderflowMore_-72057594037927938</string>
+			<Axes name="Axes"><axes>-72057594037927938</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57MinUnderflow_-72057594037927937</string>
+			<Axes name="Axes"><axes>-72057594037927937</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57Min_-72057594037927936</string>
+			<Axes name="Axes"><axes>-72057594037927936</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57MinIn_-72057594037927935</string>
+			<Axes name="Axes"><axes>-72057594037927935</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57MaxIn_72057594037927934</string>
+			<Axes name="Axes"><axes>72057594037927934</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57Max_72057594037927935</string>
+			<Axes name="Axes"><axes>72057594037927935</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57MaxOverflow_72057594037927936</string>
+			<Axes name="Axes"><axes>72057594037927936</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int57MaxOverflowMore_72057594037927937</string>
+			<Axes name="Axes"><axes>72057594037927937</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64MinUnderflowMore_-9223372036854775810</string>
+			<Axes name="Axes"><axes>-9223372036854775810</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64MinUnderflow_-9223372036854775809</string>
+			<Axes name="Axes"><axes>-9223372036854775809</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64Min_-9223372036854775808</string>
+			<Axes name="Axes"><axes>-9223372036854775808</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64MinIn_-9223372036854775807</string>
+			<Axes name="Axes"><axes>-9223372036854775807</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64MaxIn_9223372036854775806</string>
+			<Axes name="Axes"><axes>9223372036854775806</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64Max_9223372036854775807</string>
+			<Axes name="Axes"><axes>9223372036854775807</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64MaxOverflow_9223372036854775808</string>
+			<Axes name="Axes"><axes>9223372036854775808</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int64MaxOverflowMore_9223372036854775809</string>
+			<Axes name="Axes"><axes>9223372036854775809</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65MinUnderflowMore_-18446744073709551618</string>
+			<Axes name="Axes"><axes>-18446744073709551618</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65MinUnderflow_-18446744073709551617</string>
+			<Axes name="Axes"><axes>-18446744073709551617</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65Min_-18446744073709551616</string>
+			<Axes name="Axes"><axes>-18446744073709551616</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65MinIn_-18446744073709551615</string>
+			<Axes name="Axes"><axes>-18446744073709551615</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65MaxIn_18446744073709551614</string>
+			<Axes name="Axes"><axes>18446744073709551614</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65Max_18446744073709551615</string>
+			<Axes name="Axes"><axes>18446744073709551615</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65MaxOverflow_18446744073709551616</string>
+			<Axes name="Axes"><axes>18446744073709551616</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Int65MaxOverflowMore_18446744073709551617</string>
+			<Axes name="Axes"><axes>18446744073709551617</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMinUnderflowMore_-2</string>
+			<Axes name="Axes"><axes>-2</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMinUnderflow_-1</string>
+			<Axes name="Axes"><axes>-1</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMin_0</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMinIn_1</string>
+			<Axes name="Axes"><axes>1</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMaxIn_6</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMax_7</string>
+			<Axes name="Axes"><axes>7</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMaxOverflow_8</string>
+			<Axes name="Axes"><axes>8</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">RangeIntMaxOverflowMore_9</string>
+			<Axes name="Axes"><axes>9</axes></Axes>
+		</Properties>
+	</Item>
+</roblox>

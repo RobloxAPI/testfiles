@@ -1,0 +1,177 @@
+#output: model
+## Check for alternative formats that may become available. Expect all
+## components to be false.
+<roblox version="4">
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ComponentsUpperBool</string>
+			<Axes name="Axes">
+				<X>true</X>
+				<Y>false</Y>
+				<Z>true</Z>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ComponentsLowerBool</string>
+			<Axes name="Axes">
+				<x>true</x>
+				<y>false</y>
+				<z>true</z>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ComponentsUpperNumber</string>
+			<Axes name="Axes">
+				<X>1</X>
+				<Y>0</Y>
+				<Z>1</Z>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ComponentsLowerNumber</string>
+			<Axes name="Axes">
+				<x>1</x>
+				<y>0</y>
+				<z>1</z>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SubcomponentsUpperBool</string>
+			<Axes name="Axes">
+				<axes>
+					<X>true</X>
+					<Y>false</Y>
+					<Z>true</Z>
+				</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SubcomponentsLowerBool</string>
+			<Axes name="Axes">
+				<axes>
+					<x>true</x>
+					<y>false</y>
+					<z>true</z>
+				</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SubcomponentsUpperNumber</string>
+			<Axes name="Axes">
+				<axes>
+					<X>1</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SubcomponentsLowerNumber</string>
+			<Axes name="Axes">
+				<axes>
+					<x>1</x>
+					<y>0</y>
+					<z>1</z>
+				</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ListSpaceBool</string>
+			<Axes name="Axes">true false true</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ListSpaceNumber</string>
+			<Axes name="Axes">1 0 1</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ListSpaceComponent</string>
+			<Axes name="Axes">X Z</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ListCommaBool</string>
+			<Axes name="Axes">true, false, true</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ListCommaNumber</string>
+			<Axes name="Axes">1, 0, 1</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">ListCommaComponent</string>
+			<Axes name="Axes">X, Z</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SublistSpaceBool</string>
+			<Axes name="Axes">
+				<axes>true false true</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SublistSpaceNumber</string>
+			<Axes name="Axes">
+				<axes>1 0 1</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SublistSpaceComponent</string>
+			<Axes name="Axes">
+				<axes>X Z</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SublistCommaBool</string>
+			<Axes name="Axes">
+				<axes>true, false, true</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SublistCommaNumber</string>
+			<Axes name="Axes">
+				<axes>1, 0, 1</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">SublistCommaComponent</string>
+			<Axes name="Axes">
+				<axes>X, Z</axes>
+			</Axes>
+		</Properties>
+	</Item>
+</roblox>

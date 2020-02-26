@@ -1,0 +1,1593 @@
+{
+	"Format": "rbxmx",
+	"Output": "model",
+	"Data": {
+		"Metadata": [],
+		"Instances": [
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 0,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTBase"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 1,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmpty"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 2,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptySpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 3,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 4,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 5,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 6,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 7,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 8,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 9,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTEmptyMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 10,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingSpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 11,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 12,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 13,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 14,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 15,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 16,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 17,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTLeadingMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 18,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingSpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 19,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 20,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 21,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 22,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 23,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 24,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 25,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTTrailingMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 26,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingSpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 27,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 28,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 29,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 30,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 31,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 32,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 33,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 34,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingIndent"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 35,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTTWrappingIndentCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 36,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFBase"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 37,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmpty"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 38,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptySpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 39,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 40,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 41,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 42,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 43,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 44,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 45,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFEmptyMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 46,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingSpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 47,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 48,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 49,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 50,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 51,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 52,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 53,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFLeadingMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 54,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingSpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 55,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 56,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 57,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 58,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 59,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 60,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 61,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFTrailingMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 62,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingSpace"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 63,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 64,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingNewline"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 65,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingReturn"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 66,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingVTab"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 67,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingFormFeed"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 68,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingMix"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 69,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingMixCRLF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 70,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingIndent"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 71,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFFWrappingIndentCRLF"
+					}
+				],
+				"Children": []
+			}
+		]
+	}
+}

@@ -1,0 +1,3177 @@
+{
+	"Format": "rbxmx",
+	"Output": "model",
+	"Data": {
+		"Metadata": [],
+		"Instances": [
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 0,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2MinUnderflowMore_-4"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 1,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2MinUnderflow_-3"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 2,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2Min_-2"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 3,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2MinIn_-1"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 4,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2MaxIn_0"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 5,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2Max_1"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 6,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2MaxOverflow_2"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 7,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int2MaxOverflowMore_3"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 8,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8MinUnderflowMore_-130"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 9,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8MinUnderflow_-129"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 10,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8Min_-128"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 11,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8MinIn_-127"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 12,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8MaxIn_126"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 13,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8Max_127"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 14,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8MaxOverflow_128"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 15,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int8MaxOverflowMore_129"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 16,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9MinUnderflowMore_-258"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 17,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9MinUnderflow_-257"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 18,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9Min_-256"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 19,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9MinIn_-255"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 20,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9MaxIn_254"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 21,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9Max_255"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 22,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9MaxOverflow_256"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 23,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int9MaxOverflowMore_257"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 24,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16MinUnderflowMore_-32770"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 25,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16MinUnderflow_-32769"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 26,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16Min_-32768"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 27,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16MinIn_-32767"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 28,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16MaxIn_32766"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 29,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16Max_32767"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 30,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16MaxOverflow_32768"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 31,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int16MaxOverflowMore_32769"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 32,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17MinUnderflowMore_-65538"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 33,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17MinUnderflow_-65537"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 34,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17Min_-65536"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 35,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17MinIn_-65535"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 36,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17MaxIn_65534"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 37,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17Max_65535"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 38,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17MaxOverflow_65536"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 39,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int17MaxOverflowMore_65537"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 40,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24MinUnderflowMore_-8388610"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 41,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24MinUnderflow_-8388609"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 42,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24Min_-8388608"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 43,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24MinIn_-8388607"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 44,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24MaxIn_8388606"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 45,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24Max_8388607"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 46,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24MaxOverflow_8388608"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 47,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int24MaxOverflowMore_8388609"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 48,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25MinUnderflowMore_-16777218"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 49,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25MinUnderflow_-16777217"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 50,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25Min_-16777216"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 51,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25MinIn_-16777215"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 52,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25MaxIn_16777214"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 53,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25Max_16777215"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 54,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25MaxOverflow_16777216"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 55,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int25MaxOverflowMore_16777217"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 56,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32MinUnderflowMore_-2147483650"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 57,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32MinUnderflow_-2147483649"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 58,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32Min_-2147483648"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 59,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32MinIn_-2147483647"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 60,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32MaxIn_2147483646"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 61,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32Max_2147483647"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 62,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32MaxOverflow_2147483648"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 63,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int32MaxOverflowMore_2147483649"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 64,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33MinUnderflowMore_-4294967298"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 65,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33MinUnderflow_-4294967297"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 66,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33Min_-4294967296"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 67,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33MinIn_-4294967295"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 68,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33MaxIn_4294967294"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 69,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33Max_4294967295"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 70,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33MaxOverflow_4294967296"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 71,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int33MaxOverflowMore_4294967297"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 72,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40MinUnderflowMore_-549755813890"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 73,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40MinUnderflow_-549755813889"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 74,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40Min_-549755813888"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 75,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40MinIn_-549755813887"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 76,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40MaxIn_549755813886"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 77,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40Max_549755813887"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 78,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40MaxOverflow_549755813888"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 79,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int40MaxOverflowMore_549755813889"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 80,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41MinUnderflowMore_-1099511627778"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 81,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41MinUnderflow_-1099511627777"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 82,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41Min_-1099511627776"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 83,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41MinIn_-1099511627775"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 84,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41MaxIn_1099511627774"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 85,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41Max_1099511627775"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 86,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41MaxOverflow_1099511627776"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 87,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int41MaxOverflowMore_1099511627777"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 88,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48MinUnderflowMore_-140737488355330"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 89,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48MinUnderflow_-140737488355329"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 90,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48Min_-140737488355328"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 91,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48MinIn_-140737488355327"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 92,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48MaxIn_140737488355326"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 93,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48Max_140737488355327"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 94,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48MaxOverflow_140737488355328"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 95,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int48MaxOverflowMore_140737488355329"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 96,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49MinUnderflowMore_-281474976710658"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 97,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49MinUnderflow_-281474976710657"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 98,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49Min_-281474976710656"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 99,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49MinIn_-281474976710655"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 100,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49MaxIn_281474976710654"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 101,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49Max_281474976710655"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 102,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49MaxOverflow_281474976710656"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 103,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int49MaxOverflowMore_281474976710657"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 104,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56MinUnderflowMore_-36028797018963970"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 105,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56MinUnderflow_-36028797018963969"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 106,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56Min_-36028797018963968"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 107,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56MinIn_-36028797018963967"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 108,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56MaxIn_36028797018963966"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 109,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56Max_36028797018963967"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 110,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56MaxOverflow_36028797018963968"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 111,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int56MaxOverflowMore_36028797018963969"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 112,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57MinUnderflowMore_-72057594037927938"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 113,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57MinUnderflow_-72057594037927937"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 114,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57Min_-72057594037927936"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 115,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57MinIn_-72057594037927935"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 116,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57MaxIn_72057594037927934"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 117,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57Max_72057594037927935"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 118,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57MaxOverflow_72057594037927936"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 119,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int57MaxOverflowMore_72057594037927937"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 120,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64MinUnderflowMore_-9223372036854775810"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 121,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64MinUnderflow_-9223372036854775809"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 122,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64Min_-9223372036854775808"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 123,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64MinIn_-9223372036854775807"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 124,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64MaxIn_9223372036854775806"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 125,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64Max_9223372036854775807"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 126,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64MaxOverflow_9223372036854775808"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 127,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int64MaxOverflowMore_9223372036854775809"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 128,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65MinUnderflowMore_-18446744073709551618"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 129,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65MinUnderflow_-18446744073709551617"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 130,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65Min_-18446744073709551616"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 131,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65MinIn_-18446744073709551615"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 132,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65MaxIn_18446744073709551614"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 133,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65Max_18446744073709551615"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 134,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65MaxOverflow_18446744073709551616"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 135,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Int65MaxOverflowMore_18446744073709551617"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 136,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMinUnderflowMore_-2"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 137,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMinUnderflow_-1"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 138,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMin_0"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 139,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMinIn_1"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 140,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMaxIn_6"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 141,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMax_7"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 142,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMaxOverflow_8"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 143,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "RangeIntMaxOverflowMore_9"
+					}
+				],
+				"Children": []
+			}
+		]
+	}
+}

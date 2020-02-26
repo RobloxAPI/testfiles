@@ -1,0 +1,207 @@
+{
+	"Format": "rbxmx",
+	"Output": "model",
+	"Data": {
+		"Metadata": [],
+		"Instances": [
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 0,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 1,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "TFF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 2,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 3,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "TTF"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 4,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": false,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FFT"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 5,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": false,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "TFT"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 6,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "FTT"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 7,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": true,
+							"Y": true,
+							"Z": true
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "TTT"
+					}
+				],
+				"Children": []
+			},
+			{
+				"ClassName": "ArcHandles",
+				"IsService": false,
+				"Reference": 8,
+				"Properties": [
+					{
+						"Name": "Axes",
+						"Type": "Axes",
+						"Value": {
+							"X": false,
+							"Y": true,
+							"Z": false
+						}
+					},
+					{
+						"Name": "Name",
+						"Type": "String",
+						"Value": "Multiple"
+					}
+				],
+				"Children": []
+			}
+		]
+	}
+}

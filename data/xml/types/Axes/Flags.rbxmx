@@ -1,0 +1,77 @@
+#output: model
+## Test every combination of axes flags.
+<roblox version="4">
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFF</string>
+			<Axes name="Axes">
+				<axes>0</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">TFF</string>
+			<Axes name="Axes">
+				<axes>1</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTF</string>
+			<Axes name="Axes">
+				<axes>2</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">TTF</string>
+			<Axes name="Axes">
+				<axes>3</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFT</string>
+			<Axes name="Axes">
+				<axes>4</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">TFT</string>
+			<Axes name="Axes">
+				<axes>5</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTT</string>
+			<Axes name="Axes">
+				<axes>6</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">TTT</string>
+			<Axes name="Axes">
+				<axes>7</axes>
+			</Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">Multiple</string>
+			<Axes name="Axes">
+				<axes>2</axes>
+				<axes>3</axes>
+			</Axes>
+		</Properties>
+	</Item>
+</roblox>

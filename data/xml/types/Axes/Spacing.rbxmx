@@ -1,0 +1,473 @@
+#output: model
+<roblox version="4">
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTBase</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmpty</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptySpace</string>
+			<Axes name="Axes"><axes>    </axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyTab</string>
+			<Axes name="Axes"><axes>	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyNewline</string>
+			<Axes name="Axes"><axes>
+</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyReturn</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyVTab</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyFormFeed</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyMix</string>
+			<Axes name="Axes"><axes>
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTEmptyMixCRLF</string>
+			<Axes name="Axes"><axes>
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingSpace</string>
+			<Axes name="Axes"><axes>    6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingTab</string>
+			<Axes name="Axes"><axes>	6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingNewline</string>
+			<Axes name="Axes"><axes>
+6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingReturn</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingVTab</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingFormFeed</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingMix</string>
+			<Axes name="Axes"><axes>
+ 	6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTLeadingMixCRLF</string>
+			<Axes name="Axes"><axes>
+ 	6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingSpace</string>
+			<Axes name="Axes"><axes>6    </axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingTab</string>
+			<Axes name="Axes"><axes>6	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingNewline</string>
+			<Axes name="Axes"><axes>6
+</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingReturn</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingVTab</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingFormFeed</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingMix</string>
+			<Axes name="Axes"><axes>6
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTTrailingMixCRLF</string>
+			<Axes name="Axes"><axes>6
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingSpace</string>
+			<Axes name="Axes"><axes>    6    </axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingTab</string>
+			<Axes name="Axes"><axes>	6	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingNewline</string>
+			<Axes name="Axes"><axes>
+6
+</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingReturn</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingVTab</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingFormFeed</string>
+			<Axes name="Axes"><axes>6</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingMix</string>
+			<Axes name="Axes"><axes>
+ 	6
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingMixCRLF</string>
+			<Axes name="Axes"><axes>
+ 	6
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingIndent</string>
+			<Axes name="Axes"><axes>
+				6
+			</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FTTWrappingIndentCRLF</string>
+			<Axes name="Axes"><axes>
+				6
+			</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFBase</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmpty</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptySpace</string>
+			<Axes name="Axes"><axes>    </axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyTab</string>
+			<Axes name="Axes"><axes>	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyNewline</string>
+			<Axes name="Axes"><axes>
+</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyReturn</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyVTab</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyFormFeed</string>
+			<Axes name="Axes"><axes></axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyMix</string>
+			<Axes name="Axes"><axes>
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFEmptyMixCRLF</string>
+			<Axes name="Axes"><axes>
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingSpace</string>
+			<Axes name="Axes"><axes>    0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingTab</string>
+			<Axes name="Axes"><axes>	0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingNewline</string>
+			<Axes name="Axes"><axes>
+0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingReturn</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingVTab</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingFormFeed</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingMix</string>
+			<Axes name="Axes"><axes>
+ 	0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFLeadingMixCRLF</string>
+			<Axes name="Axes"><axes>
+ 	0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingSpace</string>
+			<Axes name="Axes"><axes>0    </axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingTab</string>
+			<Axes name="Axes"><axes>0	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingNewline</string>
+			<Axes name="Axes"><axes>0
+</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingReturn</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingVTab</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingFormFeed</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingMix</string>
+			<Axes name="Axes"><axes>0
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFTrailingMixCRLF</string>
+			<Axes name="Axes"><axes>0
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingSpace</string>
+			<Axes name="Axes"><axes>    0    </axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingTab</string>
+			<Axes name="Axes"><axes>	0	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingNewline</string>
+			<Axes name="Axes"><axes>
+0
+</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingReturn</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingVTab</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingFormFeed</string>
+			<Axes name="Axes"><axes>0</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingMix</string>
+			<Axes name="Axes"><axes>
+ 	0
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingMixCRLF</string>
+			<Axes name="Axes"><axes>
+ 	0
+ 	</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingIndent</string>
+			<Axes name="Axes"><axes>
+				0
+			</axes></Axes>
+		</Properties>
+	</Item>
+	<Item class="ArcHandles">
+		<Properties>
+			<string name="Name">FFFWrappingIndentCRLF</string>
+			<Axes name="Axes"><axes>
+				0
+			</axes></Axes>
+		</Properties>
+	</Item>
+</roblox>
