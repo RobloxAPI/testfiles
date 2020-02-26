@@ -15,7 +15,7 @@ func init() {
 		w.WriteString("#output: model\n<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">float</string></Properties>\n")
 		itbits("0 abbbcccd ABBBBBBBBBBCCCCCCCCCCCD", func(v uint64, i int) {
 			f := math.Float32frombits(uint32(v))
-			fmt.Fprintf(w, "\t\t<Item class=\"BlurEffect\"><Properties><string name=\"Name\">f%s</string><float name=\"Size\">%.20g</float></Properties></Item>\n", u32bits(uint32(v)), f)
+			fmt.Fprintf(w, "\t\t<Item class=\"BlurEffect\"><Properties><string name=\"Name\">f%s</string><float name=\"Size\">%.9g</float></Properties></Item>\n", u32bits(uint32(v)), f)
 		})
 		w.WriteString("\t</Item>\n</roblox>\n")
 		w.Close()
