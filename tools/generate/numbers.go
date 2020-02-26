@@ -8,31 +8,15 @@ import (
 
 func init() {
 	Define("type_float", "Generate data/types/float* files.", func() {
-		// w := Open("types/float.model.rbxmx")
-		// w.WriteString("<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">float</string></Properties>\n")
-		// itbits("0 abbbcccd ABBBBBBBBBBCCCCCCCCCCCD", func(v uint64, i int) {
-		// 	f := math.Float32frombits(uint32(v))
-		// 	fmt.Fprintf(w, "\t\t<Item class=\"Color3Value\"><Properties><string name=\"Name\">f%s</string><Color3 name=\"Value\"><R>%.20g</R><G>0</G><B>0</B></Color3></Properties></Item>\n", u32bits(uint32(v)), f)
-		// })
-		// w.WriteString("\t</Item>\n</roblox>\n")
-		// w.Close()
-
 		w := Open("types/float.model.rbxmx")
 		if w == nil {
 			return
 		}
-		w.WriteString("<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties>\n\t\t\t<string name=\"Name\">float</string>\n\t\t</Properties>\n")
-		m := &floatMuxer{w: w, fields: []string{
-			"X", "Y", "Z",
-			"R00", "R01", "R02",
-			"R10", "R11", "R12",
-			"R20", "R21", "R22",
-		}}
+		w.WriteString("<roblox version=\"4\">\n\t<Item class=\"Folder\">\n\t\t<Properties><string name=\"Name\">float</string></Properties>\n")
 		itbits("0 abbbcccd ABBBBBBBBBBCCCCCCCCCCCD", func(v uint64, i int) {
 			f := math.Float32frombits(uint32(v))
-			m.Write(fmt.Sprintf("%03d", i), fmt.Sprintf("%.20g", f))
+			fmt.Fprintf(w, "\t\t<Item class=\"BlurEffect\"><Properties><string name=\"Name\">f%s</string><float name=\"Size\">%.20g</float></Properties></Item>\n", u32bits(uint32(v)), f)
 		})
-		m.Flush()
 		w.WriteString("\t</Item>\n</roblox>\n")
 		w.Close()
 	})
@@ -50,75 +34,6 @@ func init() {
 		w.WriteString("\t</Item>\n</roblox>\n")
 		w.Close()
 	})
-}
-
-type muxer struct {
-	w       *file
-	class   string
-	typ     string
-	fields  []string
-	current []string
-}
-
-func newMuxer(w *file, class, typ string, fields ...string) *muxer {
-	return &muxer{
-		w:      w,
-		class:  class,
-		typ:    typ,
-		fields: fields,
-	}
-}
-
-func (m *muxer) Write(name, value string) {
-	if len(m.current) >= len(m.fields) {
-		m.Flush()
-	}
-	if len(m.current) == 0 {
-		fmt.Fprintf(m.w, "\t<Item class=\"%s\">\n\t\t<Properties>\n", m.class)
-	}
-	fmt.Fprintf(m.w, "\t\t\t<%s name=\"%s\">%s</%[1]s>\n", m.typ, m.fields[len(m.current)], value)
-	m.current = append(m.current, name)
-}
-
-func (m *muxer) Flush() {
-	fmt.Fprintf(m.w, "\t\t\t<string name=\"Name\">")
-	m.w.WriteString(m.current[0])
-	for i := 1; i < len(m.current); i++ {
-		m.w.WriteByte('|')
-		m.w.WriteString(m.current[i])
-	}
-	fmt.Fprintf(m.w, "</string>\n")
-	fmt.Fprintf(m.w, "\t\t</Properties>\n\t</Item>\n")
-	m.current = m.current[:0]
-}
-
-type floatMuxer struct {
-	w       *file
-	fields  []string
-	current []string
-}
-
-func (m *floatMuxer) Write(name, value string) {
-	if len(m.current) >= len(m.fields) {
-		m.Flush()
-	}
-	if len(m.current) == 0 {
-		m.w.WriteString("\t\t<Item class=\"CFrameValue\">\n\t\t\t<Properties>\n\t\t\t\t<CoordinateFrame name=\"Value\">\n")
-	}
-	fmt.Fprintf(m.w, "\t\t\t\t\t<%s>%s</%[1]s>\n", m.fields[len(m.current)], value)
-	m.current = append(m.current, name)
-}
-
-func (m *floatMuxer) Flush() {
-	fmt.Fprintf(m.w, "\t\t\t\t</CoordinateFrame>\n\t\t\t\t<string name=\"Name\">")
-	m.w.WriteString(m.current[0])
-	for i := 1; i < len(m.current); i++ {
-		m.w.WriteByte('|')
-		m.w.WriteString(m.current[i])
-	}
-	fmt.Fprintf(m.w, "</string>\n")
-	fmt.Fprintf(m.w, "\t\t\t</Properties>\n\t\t</Item>\n")
-	m.current = m.current[:0]
 }
 
 // f64fmt formats a float32 string with separators between each component.
