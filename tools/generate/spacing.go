@@ -39,6 +39,8 @@ type spaceTypeDef struct {
 	// String representing the value to use. Should not be equal to the default
 	// value for the property.
 	value string
+	// Optional sub-tag to use.
+	comp string
 }
 
 // How to format the value of a typeDef.
@@ -51,8 +53,12 @@ type spaceFormat struct {
 
 var spaceTypeDefs = map[string][]spaceTypeDef{
 	"bool": {
-		{"True", "BoolValue", "Value", "true"},
-		{"False", "Frame", "Visible", "false"},
+		{"True", "BoolValue", "Value", "true", ""},
+		{"False", "Frame", "Visible", "false", ""},
+	},
+	"Axes": {
+		{"FTT", "ArcHandles", "Axes", "6", "axes"},
+		{"FFF", "ArcHandles", "Axes", "0", "axes"},
 	},
 }
 
@@ -111,6 +117,8 @@ func generateSpacing(typ string, split bool) {
 		"\t\t\t<%[4]s name=\"%[3]s\">%[5]s</%[4]s>\n" +
 		"\t\t</Properties>\n" +
 		"\t</Item>\n"
+	const compFormat = "" +
+		"<%[1]s>%[2]s</%[1]s>"
 	const footerFormat = "" +
 		"</roblox>\n"
 
@@ -139,6 +147,9 @@ func generateSpacing(typ string, split bool) {
 				w.WriteString(headerFormat)
 			}
 			value := fmt.Sprintf(format.str, def.value)
+			if def.comp != "" {
+				value = fmt.Sprintf(compFormat, def.comp, value)
+			}
 			fmt.Fprintf(w, itemFormat, def.class, name, def.prop, typ, value)
 			if split {
 				w.WriteString(footerFormat)
