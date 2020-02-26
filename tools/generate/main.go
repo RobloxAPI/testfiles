@@ -4,9 +4,11 @@ package main
 import (
 	"bufio"
 	"flag"
-	"github.com/anaminus/but"
+	"fmt"
 	"os"
 	"path/filepath"
+
+	"github.com/anaminus/but"
 )
 
 const DataDir = `../../data`
@@ -49,6 +51,15 @@ func Open(name string) *file {
 }
 
 func main() {
+	const usage = `
+The generate command must be run from tools/generate within the testfiles
+repository.
+`
+	flag.Usage = func() {
+		fmt.Fprintf(flag.CommandLine.Output(), "Usage of %s:\n", filepath.Base(os.Args[0]))
+		fmt.Fprintln(flag.CommandLine.Output(), usage)
+		flag.PrintDefaults()
+	}
 	flag.Parse()
 	for _, def := range defs {
 		if *def.value {
