@@ -128,6 +128,7 @@ func generateIntegers(typ string, split bool) {
 			num.Lsh(num, uint(bits))
 			num.Add(num, big.NewInt(int64(format.offs)))
 			value := num.String()
+			name += "_" + value
 			if def.comp != "" {
 				value = fmt.Sprintf(compFormat, def.comp, value)
 			}
@@ -156,6 +157,7 @@ func generateIntegers(typ string, split bool) {
 			}
 			num.Add(num, big.NewInt(int64(format.offs)))
 			value := num.String()
+			name += "_" + value
 			if def.comp != "" {
 				value = fmt.Sprintf(compFormat, def.comp, value)
 			}
