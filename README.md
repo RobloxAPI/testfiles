@@ -32,6 +32,9 @@ with the diffing of version control systems. One unit of information per line.
 Other than that, the content is fairly free-form; it should focus on being
 parsable by human eyeballs.
 
+JSON is used as the format for golden files. The [specification](spec/README.md)
+provides a detailed explanation.
+
 ## Structure
 
 ### Spec directory
@@ -46,25 +49,19 @@ this directory are structured according the following rules:
   recursively.
 - A **hidden file** is any file that starts with a `.`. These are ignored.
 - A **golden file** is any file with the `.golden` extension.
+- A **config file** is any file with the `.golden-config` extension.
 - An **input file** is any other file.
 
-An input file is mapped to a golden file when the file's name matches the golden
-file's name without the extension. e.g. `Baseplate.rbxl` maps to
-`Baseplate.rbxl.golden`.
+Sibling files form a **group** when their names match. The part of the name used
+to match depends on the type:
+- An input file uses its full name.
+- A golden file uses its name without the `.golden` extension.
+- A config file uses its name without the `.golden-config` extension.
 
-#### Input file names
-The **extension** of the file name determines the format used to decode the
-file. For example, the file name:
-
-	numberSequence.rbxl
-
-will be decoded with the `rbxl` format.
-
-#### Directives
-An input file may begin with a number of **directives**, which control how the
-file is tested. A directive is a line that begins with a `#`.
-
-See [Directives](spec/README.md#user-content-directives) for more information.
+For example, the following files would be grouped together:
+- `Baseplate.rbxl`
+- `Baseplate.rbxl.golden`
+- `Baseplate.rbxl.golden-config`
 
 ## Testing
 To test an implementation against the database, a program must be written. The
@@ -75,14 +72,14 @@ program should satisfy the following properties:
 	- Directories are iterated recursively.
 	- Files starting with `.` are ignored.
 	- Files with the `.golden` extension are golden files.
+	- Files with the `.golden-config` extension are config files.
 	- All other files are input files.
-- The program must parse the name of an input file for the format.
-- The program must parse directives within the input file according to the
-  [directives spec](spec/README.md#user-content-directives).
-- An input file with an unknown extension can be ignored. Unknown directives may
-  also be ignored.
+- The program groups files according to the rules described above.
+- An input file with an unknown extension can be ignored.
+- If the group has a config file, it configures how the input is parsed.
+  Otherwise, sensible defaults can be used.
 - For each valid input file, the program must produce a JSON structure that is
-  semantically equal to the content of the corresponding golden file, in order
+  *semantically equal* to the content of the corresponding golden file, in order
   for the implementation to be considered correct.
 - If there is no corresponding golden file, then the content must be considered
   empty.
@@ -91,6 +88,9 @@ program should satisfy the following properties:
 - If some sort of "update" flag is explicitly provided to the program, then the
   produced structure should be written to the golden file. The program should
   output the difference.
+- If producing a difference is infeasible, then the program may simply write the
+  golden file with the expectation that diffing will be handled by a version
+  control system.
 
 ## Licensing
 Files within the testfiles repository, including input files, golden files, and

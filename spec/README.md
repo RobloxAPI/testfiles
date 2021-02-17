@@ -1,4 +1,13 @@
-# Input formats
+# File formats
+This document describes the formats for each type of a file in a group. A group
+consists of several types of file:
+- [Input](#user-content-input-format): The file to be parsed.
+- [Golden](#user-content-golden-format): The output file. Has the `.golden`
+  extension.
+- [Config](#user-content-config-format): Configures how the input file is
+  parsed. Has the `.golden-config` extension.
+
+## Input format
 An input file has one of several formats, determined by the file extension.
 Listed are the specifications for the various Roblox data formats:
 
@@ -6,34 +15,19 @@ Listed are the specifications for the various Roblox data formats:
 - [`rbxlx`](format/rbxlx.md): XML place.
 - [`rbxm`](format/rbxm.md): Binary model.
 - [`rbxmx`](format/rbxmx.md): XML model.
-- [~`mesh`~](format/mesh.md): Mesh data.
-- [~`terrain`~](format/terrain.md): Terrain data.
-- [~`csgphs`~](format/csgphs.md): CSG physical data.
 
-## Directives
-Regardless of the format, any input file may begin with a number of
-**directives**. A directive is a line that starts with a `#` character. The
-first line in the file that isn't a directive begins the actual **content** of
-the file.
+## Config format
+A config file is formatted as JSON, according to [RFC 8259][RFC8259]. It
+consists of an object with the following fields:
 
-Directives have two formats:
+Field  | Type   | Description
+-------|--------|------------
+Format | string | The format of the input. Overrides the input file extension.
+Struct | string | The structure of output Data.
 
-- `#flag`: Causes the "flag" directive to be enabled.
-- `#key:value`: Sets the "key" directive to "value".
+Each field is optional, with defaults that depend on the input format.
 
-`flag` and `key` may contain any character that isn't `:`, `\r`, or `\n`.
-`value` may contain any character that isn't `\r` or `\n`. Leading and trailing
-whitespace around `flag`, `key`, and `value` is ignored.
-
-The following directives are defined:
-
-Directive                         | Description
-----------------------------------|------------
-<code>**#format:** *value*</code> | Overrides the file extension, causing the content to be interpreted as the `value` format.
-<code>**#output:** *value*</code> | Sets the format of the corresponding golden file to `value`.
-<code>**#begin-content**</code>   | Causes directives to stop being parsed. The next line begins the actual content of the file.
-
-# Golden formats
+## Golden format
 A golden file is formatted as JSON, according to [RFC 8259][RFC8259]. The
 specification of a golden file format describes the structure of such JSON data.
 It may also provide recommendations for formatting the content of the file (i.e.
@@ -45,7 +39,7 @@ not need to be binary equal.
 
 [RFC8259]: https://tools.ietf.org/html/rfc8259
 
-## Common formatting
+### Common formatting
 For readability purposes, a golden file should be formatted such that one piece
 of information is on a single line.
 
@@ -80,7 +74,7 @@ Example:
 Depending on the structure, a specification may recommend more specific
 formatting.
 
-## Common structure
+### Common structure
 All golden files share several common structures.
 
 A member of an object will be described as having a "type", which may be
@@ -89,14 +83,7 @@ correctly represents this type. For example, the value of a `float` type may be
 any JSON number, one of the JSON strings "Infinity", "-Infinity", or "NaN", but
 not any other value.
 
-Each golden file, unless specified otherwise, is a JSON object (the "root") with
-three members:
-
-- `Format`: A string indicating the format of the corresponding input file.
-- `Output`: A string indicating the structure of the `Data` field, as determined
-  by directives in the input file.
-- `Data`: The value representing the content of the input file through the
-  determined structure.
+Each golden file, unless specified otherwise, is a JSON object.
 
 ### Primitive value types
 Formats may refer to several common primitive value types:
@@ -190,46 +177,42 @@ the following:
 	U+000C  form feed        \f
 	U+000D  carriage return  \r
 
-## Formats
-Each format has several pieces of information associated with it:
+### Output structures
+A number of structures are defined for produced golden files. Each structure has
+several pieces of information associated with it:
 
-- **Output:** The value displayed in the `Output` field of the root object when
-  the format is used.
-- **Directive:** The directive that causes the format to be used.
+- **Struct:** The value of the "Struct" config field that causes the structure
+  to be used.
 - **Formats:** A list of supported input formats.
 
-### Model
-The model format displays the structure of an instance tree.
-
+#### Model
 [**Specification**](golden/model.md)
 
-- **Output:** `model`
-- **Directive:** `model`
+The model structure displays the structure of an instance tree.
+
+- **Struct:** `model`
 - **Formats:** `rbxl`, `rbxm`, `rbxlx`, `rbxmx`
 
-### Binary
-The binary format displays the binary structure of an instance tree file.
-
+#### Binary
 [**Specification**](golden/binary.md)
 
-- **Output:** `binary`
-- **Directive:** `format`
+The binary structure displays the low-level binary structure of a file.
+
+- **Struct:** `binary`
 - **Formats:** `rbxl`, `rbxm`
 
-### XML
-The XML format displays the XML structure of an instance tree file.
-
+#### XML
 [**Specification**](golden/xml.md)
 
-- **Output:** `xml`
-- **Directive:** `format`
+The XML structure displays the low-level XML structure of a file.
+
+- **Struct:** `xml`
 - **Formats:** `rbxl` (legacy only), `rbxm` (legacy only), `rbxlx`, `rbxmx`
 
-### Error
-The error format displays errors that are expected to occur.
-
+#### Error
 [**Specification**](golden/error.md)
 
-- **Output:** `error`
-- **Directive:** `error`
-- **Formats:** Any
+The error structure displays errors that are expected to occur.
+
+- **Struct:** `error`
+- **Formats:** any
