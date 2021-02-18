@@ -8,10 +8,10 @@
 			<string name="StringUnicode">Hello, 世界!</string>
 			<string name="StringEscaped">Hello&#10;&#9;world!&#10;</string>
 			<string name="StringBytes">Hello&#0;&#1;&#2;&#9;&#10;&#126;&#127;&#128;&#129;&#253;&#254;&#255;world!</string>
-			<BinaryString name="BinaryStringSimple">Hello world!</BinaryString>
-			<BinaryString name="BinaryStringUnicode">Hello, 世界!</BinaryString>
-			<BinaryString name="BinaryStringEscaped">Hello&#10;&#9;world!&#10;</BinaryString>
-			<BinaryString name="BinaryStringBytes">Hello&#0;&#1;&#2;&#9;&#10;&#126;&#127;&#128;&#129;&#253;&#254;&#255;world!</BinaryString>
+			<BinaryString name="BinaryStringSimple">hvsmnRkNLIX24EaM7KQqIA==</BinaryString>
+			<BinaryString name="BinaryStringUnicode">MB4hSem/vmxZaqYx9pJGlw==</BinaryString>
+			<BinaryString name="BinaryStringEscaped">0/eiDQu4pAxywAgOUW2cRA==</BinaryString>
+			<BinaryString name="BinaryStringBytes">CnevubXmEHHrnmAN9Ghqow==</BinaryString>
 			<ProtectedString name="ProtectedStringSimple">Hello world!</ProtectedString>
 			<ProtectedString name="ProtectedStringUnicode">Hello, 世界!</ProtectedString>
 			<ProtectedString name="ProtectedStringEscaped">Hello&#10;&#9;world!&#10;</ProtectedString>
