@@ -573,17 +573,23 @@
 					{
 						"Name": "SharedStringEscaped",
 						"Type": "SharedString",
-						"Value": "Hello\n\tworld!\n"
+						"Value": [
+							"| 48 65 6c 6c 6f 0a 09 77  6f 72 6c 64 21 0a |Hello..world!.|"
+						]
 					},
 					{
 						"Name": "SharedStringSimple",
 						"Type": "SharedString",
-						"Value": "Hello world!"
+						"Value": [
+							"| 48 65 6c 6c 6f 20 77 6f  72 6c 64 21 |Hello world!|"
+						]
 					},
 					{
 						"Name": "SharedStringUnicode",
 						"Type": "SharedString",
-						"Value": "Hello, 世界!"
+						"Value": [
+							"| 48 65 6c 6c 6f 2c 20 e4  b8 96 e7 95 8c 21 |Hello, ......!|"
+						]
 					},
 					{
 						"Name": "StringBytes",

@@ -332,6 +332,6 @@ Uses [int][int].
 [Int64]: #user-content-int64
 
 ### SharedString
-Uses [string][string].
+Uses [bytes][bytes].
 
 [SharedString]: #user-content-sharedstring
