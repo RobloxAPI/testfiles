@@ -63,6 +63,14 @@ For example, the following files would be grouped together:
 - `Baseplate.rbxl.golden`
 - `Baseplate.rbxl.golden-config`
 
+### Source directory
+The [`src`](src) directory contains the sources for commands that produce golden
+files for various implementations of supported formats.
+
+### Tools directory
+The [`tools`](tools) directory contains tools that aid in the production of test
+files.
+
 ## Testing
 To test an implementation against the database, a program must be written. The
 program should satisfy the following properties:
