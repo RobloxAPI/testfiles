@@ -1,6 +1,6 @@
 {
 	"Format": "rbxmx",
-	"Output": "model",
+	"Struct": "model",
 	"Data": {
 		"Metadata": [],
 		"Instances": [

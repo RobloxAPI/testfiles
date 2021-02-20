@@ -1,5 +1,3 @@
-#output: model
-## Test every combination of axes flags.
 <roblox version="4">
 	<Item class="ArcHandles">
 		<Properties>

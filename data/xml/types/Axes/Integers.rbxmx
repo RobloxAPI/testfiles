@@ -1,5 +1,3 @@
-#output: model
-## Test constraints and overflow of integer type elements.
 <roblox version="4">
 	<Item class="ArcHandles">
 		<Properties>

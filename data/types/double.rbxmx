@@ -1,4 +1,3 @@
-#output: model
 <roblox version="4">
 	<Item class="Folder">
 		<Properties><string name="Name">double</string></Properties>

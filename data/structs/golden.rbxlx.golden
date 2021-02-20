@@ -1,6 +1,6 @@
 {
 	"Format": "rbxlx",
-	"Output": "model",
+	"Struct": "model",
 	"Data": {
 		"Metadata": [
 			{

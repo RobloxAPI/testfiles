@@ -1,6 +1,3 @@
-#output: model
-## Check for alternative formats that may become available. Expect all
-## components to be false.
 <roblox version="4">
 	<Item class="ArcHandles">
 		<Properties>
