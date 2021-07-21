@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
-	"strconv"
 	"strings"
 
 	"github.com/anaminus/but"
@@ -251,7 +250,7 @@ func handler() golden.Handler {
 				{Name: "Max", Value: v.Max},
 			})
 
-		case rbxfile.ValueRect2D:
+		case rbxfile.ValueRect:
 			e.Object(golden.Object{
 				{Name: "Min", Value: v.Min},
 				{Name: "Max", Value: v.Max},
@@ -291,111 +290,6 @@ func handler() golden.Handler {
 		case rbxfile.ValueSharedString:
 			e.Value([]byte(v))
 
-		case *rbxl.FormatModel:
-			chunks := make(golden.Array, len(v.Chunks))
-			for i, chunk := range v.Chunks {
-				chunks[i] = chunk
-			}
-			e.Object(golden.Object{
-				{Name: "Version", Value: v.Version},
-				{Name: "Types", Value: v.ClassCount},
-				{Name: "Instances", Value: v.InstanceCount},
-				{Name: "Chunks", Value: chunks},
-			})
-
-		case *rbxl.ChunkMeta:
-			sig := v.Signature()
-			values := make(golden.Array, len(v.Values))
-			for i, s := range v.Values {
-				values[i] = golden.Object{
-					{Name: "Key", Value: s[0]},
-					{Name: "Value", Value: s[1]},
-				}
-			}
-			e.Object(golden.Object{
-				{Name: "Signature", Value: sig[:]},
-				{Name: "Compressed", Value: v.IsCompressed},
-				{Name: "Values", Value: values},
-			})
-
-		case *rbxl.ChunkSharedStrings:
-			sig := v.Signature()
-			values := make(golden.Array, len(v.Values))
-			for i, s := range v.Values {
-				values[i] = golden.Object{
-					{Name: "Hash", Value: s.Hash[:]},
-					{Name: "Value", Value: s.Value},
-				}
-			}
-			e.Object(golden.Object{
-				{Name: "Signature", Value: sig[:]},
-				{Name: "Compressed", Value: v.IsCompressed},
-				{Name: "Version", Value: v.Version},
-				{Name: "Values", Value: values},
-			})
-
-		case *rbxl.ChunkInstance:
-			sig := v.Signature()
-
-			instanceIDs := make(golden.Array, len(v.InstanceIDs))
-			for i, id := range v.InstanceIDs {
-				instanceIDs[i] = id
-			}
-			getService := make(golden.Array, len(v.GetService))
-			for i, s := range v.GetService {
-				getService[i] = s
-			}
-			e.Object(golden.Object{
-				{Name: "Signature", Value: sig[:]},
-				{Name: "Compressed", Value: v.IsCompressed},
-				{Name: "TypeID", Value: v.ClassID},
-				{Name: "ClassName", Value: v.ClassName},
-				{Name: "InstanceIDs", Value: instanceIDs},
-				{Name: "IsService", Value: v.IsService},
-				{Name: "GetService", Value: getService},
-			})
-
-		case *rbxl.ChunkProperty:
-			sig := v.Signature()
-			props := make(golden.Array, len(v.Properties))
-			for i, prop := range v.Properties {
-				props[i] = prop
-			}
-			e.Object(golden.Object{
-				{Name: "Signature", Value: sig[:]},
-				{Name: "Compressed", Value: v.IsCompressed},
-				{Name: "TypeID", Value: v.ClassID},
-				{Name: "PropertyName", Value: v.PropertyName},
-				{Name: "DataType", Value: "0x" + strconv.FormatUint(uint64(v.DataType), 16) + " (" + v.DataType.String() + ")"},
-				{Name: "Values", Value: props},
-			})
-
-		case *rbxl.ChunkParent:
-			sig := v.Signature()
-			children := make(golden.Array, len(v.Children))
-			for i, child := range v.Children {
-				children[i] = child
-			}
-			parents := make(golden.Array, len(v.Parents))
-			for i, parent := range v.Parents {
-				parents[i] = parent
-			}
-			e.Object(golden.Object{
-				{Name: "Signature", Value: sig[:]},
-				{Name: "Compressed", Value: v.IsCompressed},
-				{Name: "Version", Value: v.Version},
-				{Name: "Children", Value: children},
-				{Name: "Parents", Value: parents},
-			})
-
-		case *rbxl.ChunkEnd:
-			sig := v.Signature()
-			e.Object(golden.Object{
-				{Name: "Signature", Value: sig[:]},
-				{Name: "Compressed", Value: v.IsCompressed},
-				{Name: "Content", Value: v.Content},
-			})
-
 		default:
 			return false
 		}
@@ -425,43 +319,30 @@ func openGroup(group golden.Group) {
 	defer input.Close()
 
 	var data interface{}
+	var warn error
 	switch r := bufio.NewReader(input); config.Format {
 	case "rbxl":
 		switch config.Struct {
-		case "binary":
-			doc := rbxl.FormatModel{}
-			_, err = doc.ReadFrom(r)
-			data = &doc
-		case "xml":
-			doc := rbxlx.Document{}
-			_, err = doc.ReadFrom(r)
-			data = &doc
 		case "model":
-			data, err = rbxl.DeserializePlace(r)
+			data, warn, err = rbxl.Decoder{
+				Mode:  rbxl.Place,
+				NoXML: true,
+			}.Decode(r)
 		default:
 			err = fmt.Errorf("unknown struct %q for format %q", config.Struct, config.Format)
 		}
 	case "rbxm":
 		switch config.Struct {
-		case "binary":
-			doc := rbxl.FormatModel{}
-			_, err = doc.ReadFrom(r)
-			data = &doc
-		case "xml":
-			doc := rbxlx.Document{}
-			_, err = doc.ReadFrom(r)
-			data = &doc
 		case "model":
-			data, err = rbxl.DeserializeModel(r)
+			data, warn, err = rbxl.Decoder{
+				Mode:  rbxl.Model,
+				NoXML: true,
+			}.Decode(r)
 		default:
 			err = fmt.Errorf("unknown struct %q for format %q", config.Struct, config.Format)
 		}
 	case "rbxlx", "rbxmx":
 		switch config.Struct {
-		case "xml":
-			doc := rbxlx.Document{}
-			_, err = doc.ReadFrom(r)
-			data = &doc
 		case "model":
 			data, err = rbxlx.Deserialize(r)
 		default:
@@ -485,6 +366,9 @@ func openGroup(group golden.Group) {
 	g.SetHandler(handler())
 	defer g.Close()
 
+	if warn != nil {
+		g.Value("Warning", warn)
+	}
 	if err != nil {
 		g.Value("Error", err)
 	} else {
